@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 --------------- 17-10-2021, 18:23:51 ---------------
 | DC v1.1.0 alpha Rev. 9940 -- x86_64-Win64-qt5
 | Windows 10 21H2 x86_64 -- Qt 5.13.0, libQt5Pas 5.6.1 | PID 9452
@@ -44,3 +45,28 @@ Unhandled exception: EAccessViolation: Access violation
   $00000000054824E7 in C:\Users\ChenJ\Software\doublecmd\Qt5Widgets.dll
   $0000000061971C1B in C:\Users\ChenJ\Software\doublecmd\Qt5Gui.dll
 
+=======
+--------------- 17-10-2021, 16:47:14 ---------------
+| DC v1.1.0 alpha Rev. 9940 -- x86_64-Win64-qt5
+| Windows 10 Home 21H2 x86_64 -- Qt 5.13.0, libQt5Pas 5.6.1 | PID 569432
+Unhandled exception: EFileNotFound: 找不到文件 "\tcmatch_de.pdf" 。
+  Stack trace:
+  $00007FF67C4BAA6F line 389, column 17 of filesources/filesystem/ufilesystemfilesource.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C4D3755 line 151, column 32 of udetectstr.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C46F11F line 453, column 20 of uwlxmodule.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C640372 line 750, column 10 of fviewer.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C67D5F9 line 135, column 7 of uquickviewpanel.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C67DAEF line 205, column 31 of uquickviewpanel.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C5C289B line 299, column 54 of fileviews/uorderedfileview.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C65D357 line 427, column 62 of fileviews/ucolumnsfileview.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C3FE429 line 8268, column 26 of grids.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C3FD0DB line 7837, column 3 of grids.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C65FC91 line 1353, column 3 of fileviews/ucolumnsfileview.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C65E44F line 768, column 3 of fileviews/ucolumnsfileview.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C65F176 line 1033, column 3 of fileviews/ucolumnsfileview.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C58ED7E line 2794, column 3 of fileviews/ufileview.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C58A0DA line 1294, column 3 of fileviews/ufileview.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C58F49C line 2916, column 7 of fileviews/ufileview.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+  $00007FF67C5C676B line 76, column 3 of fileviews/ufileviewwithpanels.pas in C:\Users\virgi\Documents\Software\doublecmd\doublecmd.exe
+
+>>>>>>> main
