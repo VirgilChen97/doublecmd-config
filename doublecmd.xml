@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd DCVersion="1.1.0 alpha" ConfigVersion="12">
+  <Toolbars>
+    <MainToolbar>
+      <Row>
+        <Command>
+          <ID>{04F38FA9-B240-4515-8CAE-8D44D886058E}</ID>
+          <Icon>cm_refresh</Icon>
+          <Command>cm_Refresh</Command>
+        </Command>
+        <Command>
+          <ID>{8FBFBCDD-682C-44A4-B645-387DF5DB3B56}</ID>
+          <Icon>cm_runterm</Icon>
+          <Command>cm_RunTerm</Command>
+        </Command>
+        <Command>
+          <ID>{3DD52D46-72D9-45B3-83D0-F3F3531D0DC9}</ID>
+          <Icon>cm_options</Icon>
+          <Command>cm_Options</Command>
+        </Command>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
+        <Command>
+          <ID>{33AFE693-9D41-4A05-8DBF-88933640129B}</ID>
+          <Icon>cm_briefview</Icon>
+          <Command>cm_BriefView</Command>
+        </Command>
+        <Command>
+          <ID>{9BA17197-2EF4-4BBC-98CE-675505AB6C43}</ID>
+          <Icon>cm_columnsview</Icon>
+          <Command>cm_ColumnsView</Command>
+        </Command>
+        <Command>
+          <ID>{BFFA2C94-48D9-497E-9022-75E60DEF0588}</ID>
+          <Icon>cm_thumbnailsview</Icon>
+          <Command>cm_ThumbnailsView</Command>
+        </Command>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
+        <Command>
+          <ID>{35FD655A-C8EB-418B-AE28-BC4BE0F7579A}</ID>
+          <Icon>cm_flatview</Icon>
+          <Command>cm_FlatView</Command>
+        </Command>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
+        <Command>
+          <ID>{12E8083F-7F6E-4166-A828-02EF4679E57B}</ID>
+          <Icon>cm_viewhistoryprev</Icon>
+          <Command>cm_ViewHistoryPrev</Command>
+        </Command>
+        <Command>
+          <ID>{ECAA8728-495C-48CB-B0F5-05AE3891F152}</ID>
+          <Icon>cm_viewhistorynext</Icon>
+          <Command>cm_ViewHistoryNext</Command>
+        </Command>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
+        <Command>
+          <ID>{281AFFA0-0818-4FB5-9C6A-EFC866F321B6}</ID>
+          <Icon>cm_markplus</Icon>
+          <Command>cm_MarkPlus</Command>
+        </Command>
+        <Command>
+          <ID>{8515C407-B736-4390-B6E7-527107775274}</ID>
+          <Icon>cm_markminus</Icon>
+          <Command>cm_MarkMinus</Command>
+        </Command>
+        <Command>
+          <ID>{95C45751-9E09-4C5F-9EDB-F15BB8E7114D}</ID>
+          <Icon>cm_markinvert</Icon>
+          <Command>cm_MarkInvert</Command>
+        </Command>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
+        <Command>
+          <ID>{F3095505-3307-4F49-A7CD-D68A3FE2932E}</ID>
+          <Icon>cm_packfiles</Icon>
+          <Command>cm_PackFiles</Command>
+        </Command>
+        <Command>
+          <ID>{4854C490-29F8-4407-8A93-8D48936F3499}</ID>
+          <Icon>cm_extractfiles</Icon>
+          <Command>cm_ExtractFiles</Command>
+        </Command>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
+        <Command>
+          <ID>{BA5E4256-AB85-46B3-A506-E9A6AA2CB891}</ID>
+          <Icon>cm_search</Icon>
+          <Command>cm_Search</Command>
+        </Command>
+        <Command>
+          <ID>{9129CE8E-E4C4-498E-BEBB-11A78886FA4D}</ID>
+          <Icon>cm_multirename</Icon>
+          <Command>cm_MultiRename</Command>
+        </Command>
+        <Command>
+          <ID>{D8507019-3C96-41F8-9FF0-C4798410F659}</ID>
+          <Icon>cm_syncdirs</Icon>
+          <Command>cm_SyncDirs</Command>
+        </Command>
+        <Command>
+          <ID>{FE338FDB-3AB2-41F5-9229-9BF9A51C7C55}</ID>
+          <Icon>cm_copyfullnamestoclip</Icon>
+          <Command>cm_CopyFullNamesToClip</Command>
+        </Command>
+      </Row>
+    </MainToolbar>
+    <MiddleToolbar>
+      <Row>
+        <Separator>
+          <Style>True</Style>
+        </Separator>
+        <Separator>
+          <Style>True</Style>
+        </Separator>
+        <Separator>
+          <Style>True</Style>
+        </Separator>
+        <Command>
+          <ID>{76A09B38-1823-44A6-870B-09AAFAB1595A}</ID>
+          <Icon>cm_view</Icon>
+          <Command>cm_View</Command>
+        </Command>
+        <Command>
+          <ID>{8754D002-DF5F-4906-8144-B905CEE8BA54}</ID>
+          <Icon>cm_edit</Icon>
+          <Command>cm_Edit</Command>
+        </Command>
+        <Command>
+          <ID>{2A91CEB0-5992-4E90-84AF-2BD513A3973B}</ID>
+          <Icon>cm_copy</Icon>
+          <Command>cm_Copy</Command>
+        </Command>
+        <Command>
+          <ID>{DBE75C7F-97A8-41FC-882B-B3659C8A43AC}</ID>
+          <Icon>cm_rename</Icon>
+          <Command>cm_Rename</Command>
+        </Command>
+        <Separator>
+          <Style>True</Style>
+        </Separator>
+        <Command>
+          <ID>{4B8F6B68-D74D-42C5-98F1-BD2E1D4270A4}</ID>
+          <Icon>cm_packfiles</Icon>
+          <Command>cm_PackFiles</Command>
+        </Command>
+        <Command>
+          <ID>{781DF97D-AF14-418E-9C14-1CF17D834FAD}</ID>
+          <Icon>cm_makedir</Icon>
+          <Command>cm_MakeDir</Command>
+        </Command>
+        <Command>
+          <ID>{4D3CE465-5763-414A-B5AF-395498D9ADA2}</ID>
+          <Icon>cm_about</Icon>
+          <Command>cm_About</Command>
+        </Command>
+      </Row>
+    </MiddleToolbar>
+  </Toolbars>
+  <MainWindow>
+    <Position Save="True">
+      <Left>355</Left>
+      <Top>30</Top>
+      <Width>1594</Width>
+      <Height>1424</Height>
+      <PixelsPerInch>192</PixelsPerInch>
+      <Maximized>False</Maximized>
+      <Splitter>50</Splitter>
+    </Position>
+  </MainWindow>
+  <Configuration Save="True" SortOrder="0" TreeType="1">
+    <UseConfigInProgramDir>False</UseConfigInProgramDir>
+    <FolderTabs Save="True"/>
+  </Configuration>
+  <Language>
+    <POFileName>doublecmd.zh_CN.po</POFileName>
+  </Language>
+  <Behaviours>
+    <GoToRoot>True</GoToRoot>
+    <ShowCurDirTitleBar>True</ShowCurDirTitleBar>
+    <ActiveRight>False</ActiveRight>
+    <RunInTerminalStayOpenCmd>cmd.exe</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenParams>/K {command}</RunInTerminalStayOpenParams>
+    <RunInTerminalCloseCmd>cmd.exe</RunInTerminalCloseCmd>
+    <RunInTerminalCloseParams>/C {command}</RunInTerminalCloseParams>
+    <JustRunTerminal>cmd.exe</JustRunTerminal>
+    <JustRunTermParams/>
+    <OnlyOneAppInstance>True</OnlyOneAppInstance>
+    <LynxLike>True</LynxLike>
+    <FileSizeFormat>0</FileSizeFormat>
+    <OperationSizeFormat>0</OperationSizeFormat>
+    <HeaderSizeFormat>0</HeaderSizeFormat>
+    <FooterSizeFormat>0</FooterSizeFormat>
+    <FileSizeDigits>1</FileSizeDigits>
+    <HeaderDigits>1</HeaderDigits>
+    <FooterDigits>1</FooterDigits>
+    <OperationSizeDigits>1</OperationSizeDigits>
+    <PersonalizedByte>B</PersonalizedByte>
+    <PersonalizedKilo>KB</PersonalizedKilo>
+    <PersonalizedMega>MB</PersonalizedMega>
+    <PersonalizedGiga>GB</PersonalizedGiga>
+    <PersonalizedTera>TB</PersonalizedTera>
+    <MinimizeToTray>False</MinimizeToTray>
+    <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
+    <Mouse>
+      <Selection Enabled="True">
+        <Button>0</Button>
+        <IconClick>0</IconClick>
+      </Selection>
+      <SingleClickStart>0</SingleClickStart>
+      <ScrollMode>1</ScrollMode>
+      <WheelScrollLines>3</WheelScrollLines>
+    </Mouse>
+    <AutoFillColumns>True</AutoFillColumns>
+    <AutoSizeColumn>0</AutoSizeColumn>
+    <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
+    <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
+    <DateTimeFormat>yyyy/M/d hh:nn:ss</DateTimeFormat>
+    <CutTextToColumnWidth>True</CutTextToColumnWidth>
+    <ExtendCellWidth>False</ExtendCellWidth>
+    <ShowSystemFiles>False</ShowSystemFiles>
+    <ListFilesInThread>True</ListFilesInThread>
+    <LoadIconsSeparately>True</LoadIconsSeparately>
+    <DelayLoadingTabs>True</DelayLoadingTabs>
+    <HighlightUpdatedFiles>True</HighlightUpdatedFiles>
+    <DriveBlackList/>
+    <DriveBlackListUnmounted>False</DriveBlackListUnmounted>
+  </Behaviours>
+  <Tools>
+    <Viewer Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Viewer>
+    <Editor Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Editor>
+    <Differ Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+      <FramePosAfterComp>0</FramePosAfterComp>
+    </Differ>
+  </Tools>
+  <Fonts>
+    <Main>
+      <Name>等距更纱黑体 SC</Name>
+      <Size>9</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Main>
+    <Editor>
+      <Name>等距更纱黑体 SC</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Editor>
+    <Viewer>
+      <Name>等距更纱黑体 SC</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Viewer>
+    <ViewerBook>
+      <Name>default</Name>
+      <Size>16</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </ViewerBook>
+    <Log>
+      <Name>等距更纱黑体 SC</Name>
+      <Size>9</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Log>
+    <Console>
+      <Name>等距更纱黑体 SC</Name>
+      <Size>9</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Console>
+    <PathEdit>
+      <Name>等距更纱黑体 SC</Name>
+      <Size>9</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </PathEdit>
+    <FunctionButtons>
+      <Name>更纱黑体 UI SC</Name>
+      <Size>8</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </FunctionButtons>
+    <SearchResults>
+      <Name>default</Name>
+      <Size>9</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </SearchResults>
+    <TreeViewMenu>
+      <Name>等距更纱黑体 SC</Name>
+      <Size>9</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </TreeViewMenu>
+  </Fonts>
+  <Colors>
+    <UseCursorBorder>False</UseCursorBorder>
+    <CursorBorderColor>-2147483635</CursorBorderColor>
+    <UseFrameCursor>False</UseFrameCursor>
+    <Foreground>-2147483640</Foreground>
+    <Background>-2147483643</Background>
+    <Background2>-2147483617</Background2>
+    <Cursor>8289147</Cursor>
+    <CursorText>-2147483634</CursorText>
+    <Mark>128</Mark>
+    <InactiveCursor>-2147483645</InactiveCursor>
+    <InactiveMark>128</InactiveMark>
+    <UseInvertedSelection>False</UseInvertedSelection>
+    <UseInactiveSelColor>False</UseInactiveSelColor>
+    <AllowOverColor>True</AllowOverColor>
+    <gBorderFrameWidth>1</gBorderFrameWidth>
+    <PathLabel>
+      <ActiveColor>-2147483635</ActiveColor>
+      <ActiveFontColor>-2147483634</ActiveFontColor>
+      <InactiveColor>-2147483633</InactiveColor>
+      <InactiveFontColor>-2147483630</InactiveFontColor>
+    </PathLabel>
+    <InactivePanelBrightness>100</InactivePanelBrightness>
+    <FreeSpaceIndicator>
+      <UseGradient>False</UseGradient>
+      <ForeColor>-2147483648</ForeColor>
+      <BackColor>16777215</BackColor>
+    </FreeSpaceIndicator>
+    <LogWindow>
+      <Info>8388608</Info>
+      <Error>255</Error>
+      <Success>32768</Success>
+    </LogWindow>
+    <FileFilters>
+      <Filter>
+        <Name>new file today</Name>
+        <FileMasks>&gt;今日新文件</FileMasks>
+        <Color>13236413</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>txt file</Name>
+        <FileMasks>&gt;text file</FileMasks>
+        <Color>13107190</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>office files</Name>
+        <FileMasks>&gt;office files</FileMasks>
+        <Color>16767928</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>executable</Name>
+        <FileMasks>&gt;executable</FileMasks>
+        <Color>13158399</Color>
+        <Attributes/>
+      </Filter>
+    </FileFilters>
+  </Colors>
+  <ToolTips>
+    <ShowToolTipMode>True</ShowToolTipMode>
+    <ActualToolTipMode>0</ActualToolTipMode>
+    <ToolTipHideTimeOut>0</ToolTipHideTimeOut>
+    <CustomFields/>
+  </ToolTips>
+  <Layout>
+    <MainMenu>True</MainMenu>
+    <ButtonBar Enabled="True">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>58</ButtonHeight>
+      <IconSize>36</IconSize>
+      <ShowCaptions>False</ShowCaptions>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+      <FilenameStyle>0</FilenameStyle>
+      <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
+      <PathModifierElements>0</PathModifierElements>
+    </ButtonBar>
+    <MiddleBar Enabled="False">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>48</ButtonHeight>
+      <IconSize>32</IconSize>
+      <ShowCaptions>False</ShowCaptions>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+    </MiddleBar>
+    <DriveBar1>False</DriveBar1>
+    <DriveBar2>True</DriveBar2>
+    <DriveBarFlat>True</DriveBarFlat>
+    <DrivesListButton Enabled="True">
+      <ShowLabel>True</ShowLabel>
+      <ShowFileSystem>True</ShowFileSystem>
+      <ShowFreeSpace>True</ShowFreeSpace>
+    </DrivesListButton>
+    <SeparateTree>False</SeparateTree>
+    <DirectoryTabs>True</DirectoryTabs>
+    <CurrentDirectory>True</CurrentDirectory>
+    <TabHeader>True</TabHeader>
+    <StatusBar>True</StatusBar>
+    <CmdLine>False</CmdLine>
+    <LogWindow>False</LogWindow>
+    <TermWindow>False</TermWindow>
+    <KeyButtons>True</KeyButtons>
+    <InterfaceFlat>True</InterfaceFlat>
+    <DriveFreeSpace>True</DriveFreeSpace>
+    <DriveIndicator>False</DriveIndicator>
+    <ProgressInMenuBar>True</ProgressInMenuBar>
+    <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
+    <HorizontalFilePanels>False</HorizontalFilePanels>
+    <ShortFormatDriveInfo>True</ShortFormatDriveInfo>
+    <UppercaseDriveLetter>False</UppercaseDriveLetter>
+    <ShowColonAfterDrive>False</ShowColonAfterDrive>
+  </Layout>
+  <FilesViews>
+    <Sorting>
+      <CaseSensitivity>0</CaseSensitivity>
+      <NaturalSorting>False</NaturalSorting>
+      <SpecialSorting>False</SpecialSorting>
+      <SortFolderMode>1</SortFolderMode>
+      <NewFilesPosition>2</NewFilesPosition>
+      <UpdatedFilesPosition>2</UpdatedFilesPosition>
+    </Sorting>
+    <ColumnsView>
+      <AutoSaveWidth>True</AutoSaveWidth>
+      <TitleStyle>1</TitleStyle>
+    </ColumnsView>
+    <BriefView>
+      <FileExtAligned>False</FileExtAligned>
+      <Columns>
+        <FixedWidth>100</FixedWidth>
+        <FixedCount>2</FixedCount>
+        <AutoSize>2</AutoSize>
+      </Columns>
+    </BriefView>
+    <ExtraLineSpan>2</ExtraLineSpan>
+    <FolderPrefix>[</FolderPrefix>
+    <FolderPostfix>]</FolderPostfix>
+  </FilesViews>
+  <Keyboard>
+    <Typing>
+      <Actions>
+        <NoModifier>2</NoModifier>
+        <Alt>0</Alt>
+        <CtrlAlt>3</CtrlAlt>
+      </Actions>
+    </Typing>
+  </Keyboard>
+  <FileOperations>
+    <BufferSize>524288</BufferSize>
+    <LongNameAlert>True</LongNameAlert>
+    <HashBufferSize>8388608</HashBufferSize>
+    <UseMmapInSearch>False</UseMmapInSearch>
+    <PartialNameSearch>True</PartialNameSearch>
+    <InitiallyClearFileMask>True</InitiallyClearFileMask>
+    <NewSearchClearFiltersAction>0</NewSearchClearFiltersAction>
+    <ShowMenuBarInFindFiles>True</ShowMenuBarInFindFiles>
+    <WipePassNumber>1</WipePassNumber>
+    <DropReadOnlyFlag>False</DropReadOnlyFlag>
+    <ProcessComments>False</ProcessComments>
+    <RenameSelOnlyName>False</RenameSelOnlyName>
+    <ShowCopyTabSelectPanel>False</ShowCopyTabSelectPanel>
+    <UseTrash>True</UseTrash>
+    <SkipFileOpError>False</SkipFileOpError>
+    <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
+    <ShowDialogOnDragDrop>True</ShowDialogOnDragDrop>
+    <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
+    <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
+    <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
+    <DragAndDropTextSimpletextDesireLevel>3</DragAndDropTextSimpletextDesireLevel>
+    <DragAndDropAskFormatEachTime>False</DragAndDropAskFormatEachTime>
+    <DragAndDropTextAutoFilename>False</DragAndDropTextAutoFilename>
+    <DragAndDropSaveUnicodeTextInUFT8>True</DragAndDropSaveUnicodeTextInUFT8>
+    <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
+    <AutoExtractOpenMask/>
+    <SearchDefaultTemplate/>
+    <ProgressKind>0</ProgressKind>
+    <Confirmations>15</Confirmations>
+    <Options>
+      <Symlink>0</Symlink>
+      <CorrectLinks>False</CorrectLinks>
+      <CopyOnWrite>2</CopyOnWrite>
+      <FileExists>0</FileExists>
+      <DirectoryExists>0</DirectoryExists>
+      <SetPropertyError>0</SetPropertyError>
+      <ReserveSpace>True</ReserveSpace>
+      <CheckFreeSpace>True</CheckFreeSpace>
+      <CopyAttributes>True</CopyAttributes>
+      <CopyXattributes>True</CopyXattributes>
+      <Verify>False</Verify>
+      <CopyTime>True</CopyTime>
+      <CopyOwnership>False</CopyOwnership>
+      <CopyPermissions>False</CopyPermissions>
+      <ExcludeEmptyTemplateDirectories>True</ExcludeEmptyTemplateDirectories>
+    </Options>
+    <Extract>
+      <Overwrite>False</Overwrite>
+    </Extract>
+    <MultiRename>
+      <MulRenShowMenuBarOnTop>True</MulRenShowMenuBarOnTop>
+      <MulRenInvalidCharReplacement>.</MulRenInvalidCharReplacement>
+      <MulRenLaunchBehavor>0</MulRenLaunchBehavor>
+      <MulRenExitModifiedPreset>0</MulRenExitModifiedPreset>
+      <MulRenSaveRenamingLog>0</MulRenSaveRenamingLog>
+      <MulRenLogFilename>%DC_CONFIG_PATH%\multirename.log</MulRenLogFilename>
+      <MultRenDailyIndividualDirLog>True</MultRenDailyIndividualDirLog>
+      <MulRenFilenameWithFullPathInLog>False</MulRenFilenameWithFullPathInLog>
+      <MulRenPathRangeSeparator>- </MulRenPathRangeSeparator>
+    </MultiRename>
+  </FileOperations>
+  <Tabs>
+    <Options>49937</Options>
+    <CharacterLimit>32</CharacterLimit>
+    <Position>0</Position>
+    <ActionOnDoubleClick>2</ActionOnDoubleClick>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>1</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry>
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="报销与付款分录逻辑和记账流程.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="work">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\work\</Path>
+                  <Path Filename="files">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="12PIgEL7NnoX">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\</Path>
+                  <Path Filename="com.xunmeng.knock">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
+                  <Path Filename="Software">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="doublecmd.zdli">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="libwinpthread-1.dll">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="ShadowsocksR-dotnet2.0.exe.sig">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="wcx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wcx\</Path>
+                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="preview">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\</Path>
+                  <Path Filename="wagner-task-a-77fcv (1).txt">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\</Path>
+                  <Path Filename="分录汇总逻辑.xlsx">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="Users">C:\</Path>
+                  <Path Filename="..">C:\Users\</Path>
+                  <Path Filename="Program Files (x86)">C:\</Path>
+                  <Path Filename="..">C:\Program Files (x86)\</Path>
+                  <Path Filename="Program Files (x86)">C:\</Path>
+                  <Path Filename="FreeCommander XE">C:\Program Files (x86)\</Path>
+                  <Path Filename="">C:\Program Files (x86)\FreeCommander XE\</Path>
+                </Paths>
+              </Entry>
+              <Entry Active="True">
+                <FileSource Type="TWinNetFileSource"/>
+                <Paths>
+                  <Path Filename="..">\\share.pin.com\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>默认</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>2</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry>
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="报销与付款分录逻辑和记账流程.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="work">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\work\</Path>
+                  <Path Filename="files">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="12PIgEL7NnoX">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\</Path>
+                  <Path Filename="com.xunmeng.knock">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
+                  <Path Filename="Software">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="doublecmd.zdli">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="libwinpthread-1.dll">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="ShadowsocksR-dotnet2.0.exe.sig">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="wcx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wcx\</Path>
+                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="preview">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\</Path>
+                  <Path Filename="wagner-task-a-77fcv (1).txt">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\</Path>
+                  <Path Filename="分录汇总逻辑.xlsx">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="Users">C:\</Path>
+                  <Path Filename="..">C:\Users\</Path>
+                  <Path Filename="Program Files (x86)">C:\</Path>
+                  <Path Filename="..">C:\Program Files (x86)\</Path>
+                  <Path Filename="Program Files (x86)">C:\</Path>
+                  <Path Filename="FreeCommander XE">C:\Program Files (x86)\</Path>
+                  <Path Filename="">C:\Program Files (x86)\FreeCommander XE\</Path>
+                </Paths>
+              </Entry>
+              <Entry>
+                <FileSource Type="TWinNetFileSource"/>
+                <Paths>
+                  <Path Filename="">\\share.pin.com\</Path>
+                </Paths>
+              </Entry>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="税率分录汇总.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="changzhi2">C:\Users\virgi\AppData\Roaming\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="styles">C:\Users\virgi\Desktop\doublecmd\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="Plugins">C:\Users\virgi\Documents\Software\totalcmd\</Path>
+                  <Path Filename="Wfx">C:\Users\virgi\Documents\Software\totalcmd\Plugins\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wfx\</Path>
+                  <Path Filename="Wdx">C:\Users\virgi\Documents\Software\totalcmd\Plugins\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wdx\</Path>
+                  <Path Filename="Wcx">C:\Users\virgi\Documents\Software\totalcmd\Plugins\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wcx\</Path>
+                  <Path Filename="Wlx">C:\Users\virgi\Documents\Software\totalcmd\Plugins\</Path>
+                  <Path Filename="uLister">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\</Path>
+                  <Path Filename="Redist">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\uLister\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\uLister\Redist\</Path>
+                  <Path Filename="Formats.txt">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\uLister\</Path>
+                  <Path Filename="ICLView">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\</Path>
+                  <Path Filename="Readme.txt">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\ICLView\</Path>
+                  <Path Filename="Imagine">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\</Path>
+                  <Path Filename="使用说明.txt">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\Imagine\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+  </Tabs>
+  <Log Enabled="False" Count="0" LogFileWithDateInName="False">
+    <FileName>%DC_CONFIG_PATH%\doublecmd.log</FileName>
+    <Options>1023</Options>
+  </Log>
+  <History>
+    <SearchReplaceHistory Save="True"/>
+    <DirHistory Save="True"/>
+    <CmdLineHistory Save="True"/>
+    <FileMaskHistory Save="True"/>
+  </History>
+  <QuickSearch>
+    <MatchBeginning>True</MatchBeginning>
+    <MatchEnding>True</MatchEnding>
+    <Case>1</Case>
+    <Items>2</Items>
+  </QuickSearch>
+  <QuickFilter>
+    <AutoHide>True</AutoHide>
+    <SaveSessionModifications>False</SaveSessionModifications>
+  </QuickFilter>
+  <Miscellaneous>
+    <GridVertLine>False</GridVertLine>
+    <GridHorzLine>False</GridHorzLine>
+    <ShowWarningMessages>True</ShowWarningMessages>
+    <SpaceMovesDown>False</SpaceMovesDown>
+    <DirBrackets>True</DirBrackets>
+    <InplaceRename>False</InplaceRename>
+    <InplaceRenameButton>True</InplaceRenameButton>
+    <DblClickToParent>False</DblClickToParent>
+    <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
+    <HotDirFullExpandOrNot>False</HotDirFullExpandOrNot>
+    <ShowPathInPopup>False</ShowPathInPopup>
+    <ShowOnlyValidEnv>True</ShowOnlyValidEnv>
+    <WhereToAddNewHotDir>2</WhereToAddNewHotDir>
+    <FilenameStyle>0</FilenameStyle>
+    <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
+    <PathModifierElements>0</PathModifierElements>
+  </Miscellaneous>
+  <Thumbnails Save="True">
+    <Width>128</Width>
+    <Height>128</Height>
+  </Thumbnails>
+  <Description>
+    <CreateNewUnicode>True</CreateNewUnicode>
+    <DefaultEncoding>2</DefaultEncoding>
+    <CreateNewEncoding>3</CreateNewEncoding>
+  </Description>
+  <AutoRefresh>
+    <Options>3</Options>
+    <ExcludeDirs/>
+    <Mode>1</Mode>
+  </AutoRefresh>
+  <Icons>
+    <Theme>dctheme</Theme>
+    <ShowHiddenDimmed>False</ShowHiddenDimmed>
+    <ShowMode>3</ShowMode>
+    <ShowOverlays>False</ShowOverlays>
+    <Size>32</Size>
+    <DiskSize>32</DiskSize>
+    <DiskAlpha>50</DiskAlpha>
+    <ToolSize>24</ToolSize>
+    <Exclude>False</Exclude>
+    <ExcludeDirs/>
+    <CustomIcons>0</CustomIcons>
+    <PixelsPerInch>192</PixelsPerInch>
+    <ShowInMenus Enabled="True">
+      <Size>32</Size>
+    </ShowInMenus>
+    <ShowButtonGlyphs>0</ShowButtonGlyphs>
+  </Icons>
+  <IgnoreList Enabled="False">
+    <IgnoreListFile>%DC_CONFIG_PATH%\ignorelist.txt</IgnoreListFile>
+  </IgnoreList>
+  <DirectoryHotList>
+    <HotDir Name="Knock 文件 (&amp;K)" Path="C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files"/>
+    <HotDir Name="Double Commander Config" Path="C:\Users\virgi\AppData\Roaming\doublecmd\"/>
+    <HotDir Name="Desktop (&amp;D)" Path="C:\Users\virgi\Desktop"/>
+    <HotDir Name="Documents (&amp;O)" Path="C:\Users\virgi\Documents"/>
+  </DirectoryHotList>
+  <Viewer>
+    <PreviewVisible>False</PreviewVisible>
+    <ImageStretch>False</ImageStretch>
+    <ImageExifRotate>True</ImageExifRotate>
+    <ImageStretchLargeOnly>False</ImageStretchLargeOnly>
+    <ImageCenter>True</ImageCenter>
+    <CopyMovePath1/>
+    <CopyMovePath2/>
+    <CopyMovePath3/>
+    <CopyMovePath4/>
+    <CopyMovePath5/>
+    <PaintMode>0</PaintMode>
+    <PaintWidth>5</PaintWidth>
+    <NumberOfColumns>1</NumberOfColumns>
+    <TabSpaces>8</TabSpaces>
+    <MaxTextWidth>1024</MaxTextWidth>
+    <ViewerMode>1</ViewerMode>
+    <PrintMargins>200|200|200|200</PrintMargins>
+    <ShowCaret>False</ShowCaret>
+    <PaintColor>255</PaintColor>
+    <BackgroundColor>0</BackgroundColor>
+    <FontColor>16777215</FontColor>
+    <TextPosition>0</TextPosition>
+  </Viewer>
+  <Editor>
+    <EditWaitTime>2000</EditWaitTime>
+    <SynEditOptions>856075</SynEditOptions>
+    <SynEditTabWidth>8</SynEditTabWidth>
+    <SynEditRightEdge>80</SynEditRightEdge>
+  </Editor>
+  <Differ>
+    <IgnoreCase>False</IgnoreCase>
+    <KeepScrolling>True</KeepScrolling>
+    <PaintBackground>True</PaintBackground>
+    <LineDifferences>False</LineDifferences>
+    <IgnoreWhiteSpace>False</IgnoreWhiteSpace>
+    <Colors>
+      <Added>11206570</Added>
+      <Deleted>11184895</Deleted>
+      <Modified>16755370</Modified>
+      <Binary>
+        <Modified>255</Modified>
+      </Binary>
+    </Colors>
+  </Differ>
+  <SyncDirs>
+    <Subdirs>False</Subdirs>
+    <ByContent>False</ByContent>
+    <Asymmetric Save="False">False</Asymmetric>
+    <IgnoreDate>False</IgnoreDate>
+    <FilterCopyRight>True</FilterCopyRight>
+    <FilterEqual>True</FilterEqual>
+    <FilterNotEqual>True</FilterNotEqual>
+    <FilterCopyLeft>True</FilterCopyLeft>
+    <FilterDuplicates>True</FilterDuplicates>
+    <FilterSingles>True</FilterSingles>
+    <FileMask>*</FileMask>
+    <Colors>
+      <Left>32768</Left>
+      <Right>16711680</Right>
+      <Unknown>255</Unknown>
+    </Colors>
+  </SyncDirs>
+  <InternalAssociations>
+    <OfferToAddNewFileType>False</OfferToAddNewFileType>
+    <LastCustomAction>Custom action</LastCustomAction>
+    <ExpandedContextMenu>False</ExpandedContextMenu>
+    <ExecuteViaShell>False</ExecuteViaShell>
+    <OpenSystemWithTerminalClose>False</OpenSystemWithTerminalClose>
+    <OpenSystemWithTerminalStayOpen>False</OpenSystemWithTerminalStayOpen>
+    <IncludeFileAssociation>False</IncludeFileAssociation>
+    <FilenameStyle>0</FilenameStyle>
+    <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
+    <PathModifierElements>0</PathModifierElements>
+  </InternalAssociations>
+  <TreeViewMenu>
+    <UseTVMDirectoryHotlistFMC>False</UseTVMDirectoryHotlistFMC>
+    <UseTVMDirectoryHotlistFDC>False</UseTVMDirectoryHotlistFDC>
+    <UseTVMFavoriteTabsFMC>False</UseTVMFavoriteTabsFMC>
+    <UseTVMFavoriteTabsFDC>False</UseTVMFavoriteTabsFDC>
+    <UseTVMDirHistory>False</UseTVMDirHistory>
+    <UseTVMViewHistory>False</UseTVMViewHistory>
+    <UseTVMCommandLineHistory>False</UseTVMCommandLineHistory>
+    <TreeViewMenuShortcutExit>True</TreeViewMenuShortcutExit>
+    <TreeViewMenuSingleClickExit>True</TreeViewMenuSingleClickExit>
+    <TreeViewMenuDoubleClickExit>True</TreeViewMenuDoubleClickExit>
+    <Context00>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context00>
+    <Context01>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context01>
+    <Context02>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context02>
+    <Context03>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context03>
+    <Context04>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context04>
+    <Context05>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context05>
+    <Context06>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context06>
+    <TreeViewMenuUseKeyboardShortcut>True</TreeViewMenuUseKeyboardShortcut>
+    <BackgroundColor>-2147483617</BackgroundColor>
+    <ShortcutColor>255</ShortcutColor>
+    <NormalTextColor>-2147483640</NormalTextColor>
+    <SecondaryTextColor>-2147483642</SecondaryTextColor>
+    <FoundTextColor>-2147483635</FoundTextColor>
+    <UnselectableTextColor>-2147483631</UnselectableTextColor>
+    <CursorColor>-2147483635</CursorColor>
+    <ShortcutUnderCursor>-2147483634</ShortcutUnderCursor>
+    <NormalTextUnderCursor>-2147483634</NormalTextUnderCursor>
+    <SecondaryTextUnderCursor>-2147483628</SecondaryTextUnderCursor>
+    <FoundTextUnderCursor>65535</FoundTextUnderCursor>
+    <UnselectableUnderCursor>-2147483631</UnselectableUnderCursor>
+  </TreeViewMenu>
+  <FavoriteTabsOptions>
+    <FavoriteTabsUseRestoreExtraOptions>False</FavoriteTabsUseRestoreExtraOptions>
+    <WhereToAdd>1</WhereToAdd>
+    <Expand>True</Expand>
+    <GotoConfigAftSav>False</GotoConfigAftSav>
+    <GotoConfigAftReSav>False</GotoConfigAftReSav>
+    <DfltLeftGoTo>0</DfltLeftGoTo>
+    <DfltRightGoTo>1</DfltRightGoTo>
+    <DfltKeep>5</DfltKeep>
+    <DfltSaveDirHistory>False</DfltSaveDirHistory>
+    <FavTabsLastUniqueID>{6019BC1E-90D0-441A-9C1A-C612387FA8BD}</FavTabsLastUniqueID>
+  </FavoriteTabsOptions>
+  <Lua>
+    <PathToLibrary>lua5.1.dll</PathToLibrary>
+  </Lua>
+  <NameShortcutFile>shortcuts.scf</NameShortcutFile>
+  <HotKeySortOrder>0</HotKeySortOrder>
+  <UseEnterToCloseHotKeyEditor>True</UseEnterToCloseHotKeyEditor>
+  <LastUsedPacker>zip</LastUsedPacker>
+  <LastDoAnyCommand>cm_Refresh</LastDoAnyCommand>
+  <MarkMaskCaseSensitive>False</MarkMaskCaseSensitive>
+  <MarkMaskIgnoreAccents>False</MarkMaskIgnoreAccents>
+  <MarkMaskFilterWindows>False</MarkMaskFilterWindows>
+  <MarkShowWantedAttribute>False</MarkShowWantedAttribute>
+  <MarkDefaultWantedAttribute/>
+  <MarkLastWantedAttribute/>
+  <SearchTemplates>
+    <Template>
+      <Name>BT 种子</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>*.torrent</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>-1</SearchDepth>
+      <IsPartialNameSearch>True</IsPartialNameSearch>
+      <RegExp>False</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <OfficeXML>False</OfficeXML>
+      <Duplicates Enabled="False"/>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+    <Template>
+      <Name>今日新文件</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>*.*</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>-1</SearchDepth>
+      <IsPartialNameSearch>True</IsPartialNameSearch>
+      <RegExp>False</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>True</IsNotOlderThan>
+      <NotOlderThan>1</NotOlderThan>
+      <NotOlderThanUnit>3</NotOlderThanUnit>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <OfficeXML>False</OfficeXML>
+      <Duplicates Enabled="False"/>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+    <Template>
+      <Name>text file</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>*.txt</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>-1</SearchDepth>
+      <IsPartialNameSearch>True</IsPartialNameSearch>
+      <RegExp>False</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <OfficeXML>False</OfficeXML>
+      <Duplicates Enabled="False"/>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+    <Template>
+      <Name>office files</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>*.csv;*.doc;*.dot;*.pdf;*.ppt;*.rtf;*.wps;*.wri;*.xls;*.docx;*.pptx;*.xlsx;*.ppsx;*.odt;*.ott;</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>-1</SearchDepth>
+      <IsPartialNameSearch>True</IsPartialNameSearch>
+      <RegExp>False</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <OfficeXML>False</OfficeXML>
+      <Duplicates Enabled="False"/>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+    <Template>
+      <Name>executable</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>*.bat;*.cmd;*.com;*.exe;*.msc;*.pif;*.scr;*.vbs</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>-1</SearchDepth>
+      <IsPartialNameSearch>True</IsPartialNameSearch>
+      <RegExp>False</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <OfficeXML>False</OfficeXML>
+      <Duplicates Enabled="False"/>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+  </SearchTemplates>
+  <ColumnsSets DefaultTitleHash="4226688076">
+    <ColumnsSet UseFrameCursor="False">
+      <Name>Default</Name>
+      <CustomView>False</CustomView>
+      <FileSystem>&lt;General&gt;</FileSystem>
+      <PixelsPerInch>192</PixelsPerInch>
+      <CursorBorder Enabled="False">
+        <Color>-2147483635</Color>
+      </CursorBorder>
+      <Columns>
+        <Column>
+          <Title>名称</Title>
+          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
+          <Width>250</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>等距更纱黑体 SC</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>扩展名</Title>
+          <FuncString>[DC().GETFILEEXT{}]</FuncString>
+          <Width>50</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>等距更纱黑体 SC</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>大小</Title>
+          <FuncString>[DC().GETFILESIZE{}]</FuncString>
+          <Width>70</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>等距更纱黑体 SC</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>日期</Title>
+          <FuncString>[DC().GETFILETIME{}]</FuncString>
+          <Width>140</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>等距更纱黑体 SC</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>属性</Title>
+          <FuncString>[DC().GETFILEATTR{}]</FuncString>
+          <Width>100</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>等距更纱黑体 SC</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+    <ColumnsSet UseFrameCursor="False">
+      <Name>默认</Name>
+      <CustomView>False</CustomView>
+      <FileSystem>&lt;General&gt;</FileSystem>
+      <PixelsPerInch>192</PixelsPerInch>
+      <CursorBorder Enabled="False">
+        <Color>-2147483635</Color>
+      </CursorBorder>
+      <Columns>
+        <Column>
+          <Title>名称</Title>
+          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
+          <Width>526</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>等距更纱黑体 SC</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>15592941</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>3289650</Background2>
+          <MarkColor>7500031</MarkColor>
+          <CursorColor>8289147</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>7500031</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>EXT</Title>
+          <FuncString>[DC().GETFILEEXT{}]</FuncString>
+          <Width>100</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>等距更纱黑体 SC</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>15592941</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>3289650</Background2>
+          <MarkColor>7500031</MarkColor>
+          <CursorColor>8289147</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>7500031</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>大小</Title>
+          <FuncString>[DC().GETFILESIZE{}]</FuncString>
+          <Width>108</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>等距更纱黑体 SC</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>15592941</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>3289650</Background2>
+          <MarkColor>7500031</MarkColor>
+          <CursorColor>8289147</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>7500031</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>日期</Title>
+          <FuncString>[DC().GETFILETIME{}]</FuncString>
+          <Width>252</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>等距更纱黑体 SC</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>15592941</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>3289650</Background2>
+          <MarkColor>7500031</MarkColor>
+          <CursorColor>8289147</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>7500031</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+  </ColumnsSets>
+  <Plugins>
+    <DsxPlugins/>
+    <WcxPlugins>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zip</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>735</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>jar</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>990</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>7z</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>607</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tar</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>bz2</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tbz</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>gz</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tgz</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzma</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>1</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tlz</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>xz</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>txz</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zipx</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cpio</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>deb</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>arj</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cab</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cramfs</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>dmg</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>fat</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>hfs</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>iso</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lha</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzh</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>ntfs</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>squashfs</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>taz</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>vhd</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>wim</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>85</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>xar</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>z</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rpm</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\rpm\rpm.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rar</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\unrar\unrar.wcx</Path>
+        <Flags>607</Flags>
+      </WcxPlugin>
+    </WcxPlugins>
+    <WdxPlugins>
+      <WdxPlugin>
+        <Name>deb_wdx</Name>
+        <Path>%COMMANDER_PATH%\plugins\wdx\deb_wdx\deb_wdx.wdx</Path>
+        <DetectString>EXT="DEB"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>rpm_wdx</Name>
+        <Path>%COMMANDER_PATH%\plugins\wdx\rpm_wdx\rpm_wdx.wdx</Path>
+        <DetectString>EXT="RPM"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>audioinfo</Name>
+        <Path>%COMMANDER_PATH%\plugins\wdx\audioinfo\audioinfo.wdx</Path>
+        <DetectString>(EXT="MP3") | (EXT="MP2") | (EXT="MP1") | (EXT="OGG") | (EXT="WMA") | (EXT="WAV") | (EXT="VQF") | (EXT="AAC") | (EXT="APE") | (EXT="MPC") | (EXT="FLAC") | (EXT="CDA") | (EXT="TTA") | (EXT="AC3") | (EXT="DTS") | (EXT="WV") | (EXT="WVC") | (EXT="OFR") | (EXT="OFS") | (EXT="M4A") | (EXT="MP4") | (EXT="OPUS")</DetectString>
+      </WdxPlugin>
+    </WdxPlugins>
+    <WfxPlugins>
+      <WfxPlugin Enabled="True">
+        <Name>FTP</Name>
+        <Path>%COMMANDER_PATH%\plugins\wfx\ftp\ftp.wfx</Path>
+      </WfxPlugin>
+    </WfxPlugins>
+    <WlxPlugins>
+      <WlxPlugin Enabled="True">
+        <Name>preview</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\preview\preview.wlx</Path>
+        <DetectString>(EXT="HTM")|(EXT="HTML")|(EXT="MHT")|(EXT="MHTML")</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>wmp</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\wmp\wmp.wlx</Path>
+        <DetectString>(EXT="WAV")|(EXT="MP3")|(EXT="MP4")|(EXT="AVI")</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>Imagine</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\Imagine\Imagine.wlx64</Path>
+        <DetectString>MULTIMEDIA</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>cudalister</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\cudalister\cudalister.wlx64</Path>
+        <DetectString>MULTIMEDIA</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>uLister</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\uLister\uLister.wlx64</Path>
+        <DetectString/>
+      </WlxPlugin>
+    </WlxPlugins>
+    <TweakPluginWidth0>0</TweakPluginWidth0>
+    <TweakPluginHeight0>0</TweakPluginHeight0>
+    <TweakPluginWidth1>0</TweakPluginWidth1>
+    <TweakPluginHeight1>0</TweakPluginHeight1>
+    <TweakPluginWidth2>0</TweakPluginWidth2>
+    <TweakPluginHeight2>0</TweakPluginHeight2>
+    <TweakPluginWidth3>0</TweakPluginWidth3>
+    <TweakPluginHeight3>0</TweakPluginHeight3>
+    <TweakPluginWidth4>814</TweakPluginWidth4>
+    <TweakPluginHeight4>400</TweakPluginHeight4>
+    <AutoTweak>False</AutoTweak>
+    <WCXConfigViewMode>0</WCXConfigViewMode>
+    <PluginFilenameStyle>1</PluginFilenameStyle>
+    <PluginPathToBeRelativeTo>%COMMANDER_PATH%</PluginPathToBeRelativeTo>
+  </Plugins>
+</doublecmd>
