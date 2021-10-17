@@ -394,8 +394,8 @@
     <MainMenu>True</MainMenu>
     <ButtonBar Enabled="True">
       <FlatIcons>True</FlatIcons>
-      <ButtonHeight>58</ButtonHeight>
-      <IconSize>36</IconSize>
+      <ButtonHeight>29</ButtonHeight>
+      <IconSize>18</IconSize>
       <ShowCaptions>False</ShowCaptions>
       <ReportErrorWithCommands>False</ReportErrorWithCommands>
       <FilenameStyle>0</FilenameStyle>
@@ -840,14 +840,14 @@
     <ShowHiddenDimmed>False</ShowHiddenDimmed>
     <ShowMode>3</ShowMode>
     <ShowOverlays>False</ShowOverlays>
-    <Size>32</Size>
-    <DiskSize>32</DiskSize>
+    <Size>16</Size>
+    <DiskSize>16</DiskSize>
     <DiskAlpha>50</DiskAlpha>
     <ToolSize>24</ToolSize>
     <Exclude>False</Exclude>
     <ExcludeDirs/>
     <CustomIcons>0</CustomIcons>
-    <PixelsPerInch>192</PixelsPerInch>
+    <PixelsPerInch>96</PixelsPerInch>
     <ShowInMenus Enabled="True">
       <Size>32</Size>
     </ShowInMenus>
@@ -857,10 +857,10 @@
     <IgnoreListFile>%DC_CONFIG_PATH%\ignorelist.txt</IgnoreListFile>
   </IgnoreList>
   <DirectoryHotList>
-    <HotDir Name="Knock 文件 (&amp;K)" Path="C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files"/>
-    <HotDir Name="Double Commander Config" Path="C:\Users\virgi\AppData\Roaming\doublecmd\"/>
-    <HotDir Name="Desktop (&amp;D)" Path="C:\Users\virgi\Desktop"/>
-    <HotDir Name="Documents (&amp;O)" Path="C:\Users\virgi\Documents"/>
+    <HotDir Name="Double Commander Config" Path="C:\Users\virgi\AppData\Roaming\doublecmd"/>
+    <HotDir Name="HomeNas (&amp;H)" Path="\\10.0.0.10\HomeNas\"/>
+    <HotDir Name="Desktop (&amp;D)" Path="C:\Users\ChenJ\Desktop"/>
+    <HotDir Name="Documents (&amp;O)" Path="C:\Users\ChenJ\Documents"/>
   </DirectoryHotList>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
@@ -1192,7 +1192,7 @@
       <Name>Default</Name>
       <CustomView>False</CustomView>
       <FileSystem>&lt;General&gt;</FileSystem>
-      <PixelsPerInch>192</PixelsPerInch>
+      <PixelsPerInch>96</PixelsPerInch>
       <CursorBorder Enabled="False">
         <Color>-2147483635</Color>
       </CursorBorder>
@@ -1200,7 +1200,7 @@
         <Column>
           <Title>名称</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>250</Width>
+          <Width>125</Width>
           <Align>0</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>
@@ -1223,7 +1223,7 @@
         <Column>
           <Title>扩展名</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>50</Width>
+          <Width>25</Width>
           <Align>0</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>
@@ -1246,7 +1246,7 @@
         <Column>
           <Title>大小</Title>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>70</Width>
+          <Width>35</Width>
           <Align>1</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>
@@ -1269,7 +1269,7 @@
         <Column>
           <Title>日期</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>140</Width>
+          <Width>70</Width>
           <Align>1</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>
@@ -1292,7 +1292,7 @@
         <Column>
           <Title>属性</Title>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>100</Width>
+          <Width>50</Width>
           <Align>0</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>
@@ -1318,7 +1318,7 @@
       <Name>默认</Name>
       <CustomView>False</CustomView>
       <FileSystem>&lt;General&gt;</FileSystem>
-      <PixelsPerInch>192</PixelsPerInch>
+      <PixelsPerInch>96</PixelsPerInch>
       <CursorBorder Enabled="False">
         <Color>-2147483635</Color>
       </CursorBorder>
@@ -1326,7 +1326,7 @@
         <Column>
           <Title>名称</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>526</Width>
+          <Width>263</Width>
           <Align>0</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>
@@ -1349,7 +1349,7 @@
         <Column>
           <Title>EXT</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>100</Width>
+          <Width>50</Width>
           <Align>0</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>
@@ -1372,7 +1372,7 @@
         <Column>
           <Title>大小</Title>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>108</Width>
+          <Width>54</Width>
           <Align>1</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>
@@ -1395,7 +1395,7 @@
         <Column>
           <Title>日期</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>252</Width>
+          <Width>126</Width>
           <Align>1</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>

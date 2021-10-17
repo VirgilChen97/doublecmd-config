@@ -1,0 +1,23 @@
+--------------- 17-10-2021, 18:23:51 ---------------
+| DC v1.1.0 alpha Rev. 9940 -- x86_64-Win64-qt5
+| Windows 10 21H2 x86_64 -- Qt 5.13.0, libQt5Pas 5.6.1 | PID 9452
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000067338C10 in C:\Users\ChenJ\Software\doublecmd\Qt5Pas1.dll
+  $00007FF7C27AED04 line 3789, column 51 of qt5/qtwinapi.inc in C:\Users\ChenJ\Software\doublecmd\doublecmd.exe
+  $00007FF7C27AEB0C line 3839, column 101 of qt5/qtwinapi.inc in C:\Users\ChenJ\Software\doublecmd\doublecmd.exe
+  $00007FF7C27A6669 line 1878, column 23 of qt5/qtobject.inc in C:\Users\ChenJ\Software\doublecmd\doublecmd.exe
+  $00007FF7C27A65DC line 1887, column 31 of qt5/qtobject.inc in C:\Users\ChenJ\Software\doublecmd\doublecmd.exe
+  $00007FF7C27A46F6 line 909, column 11 of qt5/qtobject.inc in C:\Users\ChenJ\Software\doublecmd\doublecmd.exe
+  $0000000068A74331 in C:\Users\ChenJ\Software\doublecmd\Qt5Core.dll
+  $0000000005177CCA in C:\Users\ChenJ\Software\doublecmd\Qt5Widgets.dll
+  $000000000517ED23 in C:\Users\ChenJ\Software\doublecmd\Qt5Widgets.dll
+  $0000000068A758C8 in C:\Users\ChenJ\Software\doublecmd\Qt5Core.dll
+  $0000000061971F5B in C:\Users\ChenJ\Software\doublecmd\Qt5Gui.dll
+  $0000000005182528 in C:\Users\ChenJ\Software\doublecmd\Qt5Widgets.dll
+  $0000000005179991 in C:\Users\ChenJ\Software\doublecmd\Qt5Widgets.dll
+  $000000000517A01C in C:\Users\ChenJ\Software\doublecmd\Qt5Widgets.dll
+  $000000000517A1FE in C:\Users\ChenJ\Software\doublecmd\Qt5Widgets.dll
+  $00000000051824E7 in C:\Users\ChenJ\Software\doublecmd\Qt5Widgets.dll
+  $0000000061971C1B in C:\Users\ChenJ\Software\doublecmd\Qt5Gui.dll
+
