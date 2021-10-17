@@ -3,11 +3,11 @@
   <Toolbars>
     <MainToolbar>
       <Row>
-        <Command>
-          <ID>{04F38FA9-B240-4515-8CAE-8D44D886058E}</ID>
+        <Program>
+          <ID>{FF8B40FF-B991-4D37-9487-ED672BD9D123}</ID>
           <Icon>cm_refresh</Icon>
-          <Command>cm_Refresh</Command>
-        </Command>
+          <Hint>刷新(R)</Hint>
+        </Program>
         <Command>
           <ID>{8FBFBCDD-682C-44A4-B645-387DF5DB3B56}</ID>
           <Icon>cm_runterm</Icon>
@@ -111,6 +111,13 @@
           <Icon>cm_copyfullnamestoclip</Icon>
           <Command>cm_CopyFullNamesToClip</Command>
         </Command>
+        <Program>
+          <ID>{CAA83F78-C648-4DEF-B226-699828342BE9}</ID>
+          <Icon>%COMMANDER_PATH%\pixmaps\dctheme\32x32\apps\utilities-terminal.png</Icon>
+          <Hint>在终端打开活动面板路径</Hint>
+          <Command>wt</Command>
+          <Params>-d %ds</Params>
+        </Program>
       </Row>
     </MainToolbar>
     <MiddleToolbar>
