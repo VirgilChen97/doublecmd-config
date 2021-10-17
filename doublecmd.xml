@@ -174,9 +174,9 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>355</Left>
-      <Top>30</Top>
-      <Width>1594</Width>
+      <Left>223</Left>
+      <Top>86</Top>
+      <Width>1671</Width>
       <Height>1424</Height>
       <PixelsPerInch>192</PixelsPerInch>
       <Maximized>False</Maximized>
@@ -601,7 +601,7 @@
               <Entry Active="True">
                 <FileSource Type="TWinNetFileSource"/>
                 <Paths>
-                  <Path Filename="..">\\share.pin.com\</Path>
+                  <Path Filename="Mac软件共享">\\share.pin.com\</Path>
                 </Paths>
               </Entry>
             </History>
@@ -685,7 +685,46 @@
                 <Paths>
                   <Path Filename="税率分录汇总.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
                   <Path Filename="..">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
-                  <Path Filename="changzhi2">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="com.xunmeng.knock">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="12PIgEL7NnoX">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\</Path>
+                  <Path Filename="com.xunmeng.knock">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="Roaming">C:\Users\virgi\AppData\</Path>
+                  <Path Filename="Desktop">C:\Users\virgi\</Path>
+                  <Path Filename="最后编辑时间 9月.txt">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="pixmaps">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="dctheme">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\</Path>
+                  <Path Filename="128x128">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
+                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\actions\</Path>
+                  <Path Filename="mimetypes">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\mimetypes\</Path>
+                  <Path Filename="mimetypes">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
+                  <Path Filename="32x32">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
+                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\</Path>
+                  <Path Filename="cm_benchmark.png">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\actions\</Path>
+                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\</Path>
+                  <Path Filename="scalable">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
+                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\actions\</Path>
+                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\actions\</Path>
+                  <Path Filename="devices">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
+                  <Path Filename="scalable">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
+                  <Path Filename="mainicon">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\</Path>
+                  <Path Filename="alt">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\alt\</Path>
+                  <Path Filename="papirus">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\papirus\</Path>
+                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="cudalister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="themes">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\themes\</Path>
+                  <Path Filename="readme">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\</Path>
+                  <Path Filename="history.txt">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\readme\</Path>
+                  <Path Filename="history.xml">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="multiarc.ini">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
                 </Paths>
               </Entry>
             </History>
@@ -721,6 +760,18 @@
                   <Path Filename="Readme.txt">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\ICLView\</Path>
                   <Path Filename="Imagine">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\</Path>
                   <Path Filename="使用说明.txt">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\Imagine\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="doublecmd.xml">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="Roaming">C:\Users\virgi\AppData\</Path>
+                  <Path Filename="WeChat Files">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\WeChat Files\</Path>
+                  <Path Filename="Virtual Machines">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Ubuntu">C:\Users\virgi\Documents\Virtual Machines\</Path>
+                  <Path Filename="mksSandbox-1.log">C:\Users\virgi\Documents\Virtual Machines\Ubuntu\</Path>
+                  <Path Filename="Ubuntu">C:\Users\virgi\Documents\Virtual Machines\</Path>
+                  <Path Filename="Virtual Machines">C:\Users\virgi\Documents\</Path>
                 </Paths>
               </Entry>
             </History>
