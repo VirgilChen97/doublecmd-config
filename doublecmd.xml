@@ -106,7 +106,7 @@
           <Icon>%COMMANDER_PATH%\pixmaps\dctheme\32x32\apps\utilities-terminal.png</Icon>
           <Hint>在终端打开活动面板路径</Hint>
           <Command>wt</Command>
-          <Params>-d %ds</Params>
+          <Params>-d %d</Params>
         </Program>
         <Command>
           <ID>{3DD52D46-72D9-45B3-83D0-F3F3531D0DC9}</ID>
@@ -169,8 +169,8 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>223</Left>
-      <Top>86</Top>
+      <Left>641</Left>
+      <Top>129</Top>
       <Width>1671</Width>
       <Height>1424</Height>
       <PixelsPerInch>192</PixelsPerInch>
@@ -537,6 +537,12 @@
         <ActiveTab>1</ActiveTab>
         <Tab>
           <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>2</Function>
+              </Sorting>
+            </Sortings>
             <History>
               <Entry>
                 <FileSource Type="FileSystem"/>
@@ -593,15 +599,70 @@
                   <Path Filename="">C:\Program Files (x86)\FreeCommander XE\</Path>
                 </Paths>
               </Entry>
-              <Entry Active="True">
+              <Entry>
                 <FileSource Type="TWinNetFileSource"/>
                 <Paths>
-                  <Path Filename="Mac软件共享">\\share.pin.com\</Path>
+                  <Path Filename="">\\share.pin.com\</Path>
+                </Paths>
+              </Entry>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="com.xunmeng.knock">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="Roaming">C:\Users\virgi\AppData\</Path>
+                  <Path Filename="Desktop">C:\Users\virgi\</Path>
+                  <Path Filename="最后编辑时间 9月.txt">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="pixmaps">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="dctheme">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\</Path>
+                  <Path Filename="128x128">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
+                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\actions\</Path>
+                  <Path Filename="mimetypes">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\mimetypes\</Path>
+                  <Path Filename="mimetypes">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
+                  <Path Filename="32x32">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
+                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\</Path>
+                  <Path Filename="cm_benchmark.png">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\actions\</Path>
+                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\</Path>
+                  <Path Filename="scalable">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
+                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\actions\</Path>
+                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\actions\</Path>
+                  <Path Filename="devices">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
+                  <Path Filename="scalable">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
+                  <Path Filename="mainicon">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\</Path>
+                  <Path Filename="alt">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\alt\</Path>
+                  <Path Filename="papirus">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\papirus\</Path>
+                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="cudalister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="themes">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\themes\</Path>
+                  <Path Filename="readme">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\</Path>
+                  <Path Filename="history.txt">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\readme\</Path>
+                  <Path Filename="history.xml">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="shortcuts.scf">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="IDMGCExt.crx">C:\Program Files (x86)\Internet Download Manager\</Path>
+                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="Imagine">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\</Path>
+                  <Path Filename="DAZ 3D">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Studio">C:\Users\virgi\Documents\DAZ 3D\</Path>
+                  <Path Filename="Render Library">C:\Users\virgi\Documents\DAZ 3D\Studio\</Path>
+                  <Path Filename="300_png_icon.png">C:\Users\virgi\Documents\DAZ 3D\Studio\Render Library\</Path>
+                  <Path Filename="Render Library">C:\Users\virgi\Documents\DAZ 3D\Studio\</Path>
+                  <Path Filename="300_png_icon.png">C:\Users\virgi\Documents\DAZ 3D\Studio\Render Library\</Path>
                 </Paths>
               </Entry>
             </History>
             <ColumnsView>
-              <ColumnsSet>默认</ColumnsSet>
+              <ColumnsSet>Default</ColumnsSet>
             </ColumnsView>
           </FileView>
         </Tab>
@@ -675,17 +736,9 @@
                   <Path Filename="">\\share.pin.com\</Path>
                 </Paths>
               </Entry>
-              <Entry Active="True">
+              <Entry>
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="税率分录汇总.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
-                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
-                  <Path Filename="com.xunmeng.knock">C:\Users\virgi\AppData\Roaming\</Path>
-                  <Path Filename="12PIgEL7NnoX">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\</Path>
-                  <Path Filename="com.xunmeng.knock">C:\Users\virgi\AppData\Roaming\</Path>
-                  <Path Filename="Roaming">C:\Users\virgi\AppData\</Path>
-                  <Path Filename="Desktop">C:\Users\virgi\</Path>
-                  <Path Filename="最后编辑时间 9月.txt">C:\Users\virgi\Desktop\</Path>
                   <Path Filename="pixmaps">C:\Users\virgi\Documents\Software\doublecmd\</Path>
                   <Path Filename="dctheme">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\</Path>
                   <Path Filename="128x128">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
@@ -719,12 +772,41 @@
                   <Path Filename="history.txt">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\readme\</Path>
                   <Path Filename="history.xml">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
                   <Path Filename="doublecmd">C:\Users\virgi\AppData\Roaming\</Path>
-                  <Path Filename="multiarc.ini">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="shortcuts.scf">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="IDMGCExt.crx">C:\Program Files (x86)\Internet Download Manager\</Path>
+                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="Imagine">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\</Path>
+                  <Path Filename="DAZ 3D">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Studio">C:\Users\virgi\Documents\DAZ 3D\</Path>
+                  <Path Filename="Render Library">C:\Users\virgi\Documents\DAZ 3D\Studio\</Path>
+                  <Path Filename="300_png_icon.png">C:\Users\virgi\Documents\DAZ 3D\Studio\Render Library\</Path>
+                  <Path Filename="Render Library">C:\Users\virgi\Documents\DAZ 3D\Studio\</Path>
+                  <Path Filename="300_png_icon.png">C:\Users\virgi\Documents\DAZ 3D\Studio\Render Library\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="">C:\Users\virgi\Downloads\Compressed\</Path>
+                </Paths>
+              </Entry>
+              <Entry>
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="asdasd">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="Formats.dll">C:\Users\virgi\Desktop\asdasd\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="wagner-api-a-7cfmp (2).txt">C:\Users\virgi\Downloads\logs\</Path>
+                  <Path Filename="Documents">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="">C:\Users\virgi\Desktop\落户\</Path>
                 </Paths>
               </Entry>
             </History>
             <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
+              <ColumnsSet>默认</ColumnsSet>
             </ColumnsView>
           </FileView>
         </Tab>
@@ -737,20 +819,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="styles">C:\Users\virgi\Desktop\doublecmd\</Path>
-                  <Path Filename="doublecmd">C:\Users\virgi\Desktop\</Path>
-                  <Path Filename="Plugins">C:\Users\virgi\Documents\Software\totalcmd\</Path>
-                  <Path Filename="Wfx">C:\Users\virgi\Documents\Software\totalcmd\Plugins\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wfx\</Path>
-                  <Path Filename="Wdx">C:\Users\virgi\Documents\Software\totalcmd\Plugins\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wdx\</Path>
-                  <Path Filename="Wcx">C:\Users\virgi\Documents\Software\totalcmd\Plugins\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wcx\</Path>
-                  <Path Filename="Wlx">C:\Users\virgi\Documents\Software\totalcmd\Plugins\</Path>
-                  <Path Filename="uLister">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\</Path>
-                  <Path Filename="Redist">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\uLister\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\uLister\Redist\</Path>
-                  <Path Filename="Formats.txt">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\uLister\</Path>
                   <Path Filename="ICLView">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\</Path>
                   <Path Filename="Readme.txt">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\ICLView\</Path>
                   <Path Filename="Imagine">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\</Path>
@@ -766,12 +834,46 @@
                   <Path Filename="Ubuntu">C:\Users\virgi\Documents\Virtual Machines\</Path>
                   <Path Filename="mksSandbox-1.log">C:\Users\virgi\Documents\Virtual Machines\Ubuntu\</Path>
                   <Path Filename="Ubuntu">C:\Users\virgi\Documents\Virtual Machines\</Path>
-                  <Path Filename="Virtual Machines">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="pdd-code">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\</Path>
+                  <Path Filename="Programs">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\Programs\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wlx_imagine_x64.zip">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="Imagine">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="Plugin">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\Plugin\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\</Path>
+                  <Path Filename="irfanview">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="IrfanView64">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\irfanview\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\irfanview\IrfanView64\</Path>
+                  <Path Filename="IrfanView64">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\irfanview\</Path>
+                  <Path Filename="uLister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="Redist">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\uLister\</Path>
+                  <Path Filename="Wvcore.dll">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\uLister\Redist\</Path>
+                  <Path Filename="Redist">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\uLister\</Path>
+                  <Path Filename="MMedia">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="Readme.txt">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\MMedia\</Path>
+                  <Path Filename="wmp">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\wmp\</Path>
+                  <Path Filename="sLister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="SumatraPDF.exe">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\sLister\</Path>
+                  <Path Filename="sLister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="sLister.ini">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\sLister\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070 (ED2000.COM).iso">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="Documents">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="计算机网络-自顶向下方法第七版.pdf">C:\Users\virgi\Downloads\Documents\</Path>
+                  <Path Filename="wagner-api-a-7cfmp (1)">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\wagner-api-a-7cfmp (1)\</Path>
+                  <Path Filename="ubuntu-20.04.3-desktop-amd64.iso">C:\Users\virgi\Downloads\</Path>
                 </Paths>
               </Entry>
             </History>
             <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
+              <ColumnsSet>默认</ColumnsSet>
             </ColumnsView>
           </FileView>
         </Tab>
@@ -856,12 +958,13 @@
     <HotDir Name="Double Commander Config" Path="C:\Users\virgi\AppData\Roaming\doublecmd"/>
     <HotDir Name="Desktop (&amp;D)" Path="C:\Users\virgi\Desktop"/>
     <HotDir Name="Documents (&amp;O)" Path="C:\Users\virgi\Documents"/>
+    <HotDir Name="Downloads (&amp;W)" Path="C:\Users\virgi\Downloads"/>
   </DirectoryHotList>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
     <ImageStretch>False</ImageStretch>
     <ImageExifRotate>True</ImageExifRotate>
-    <ImageStretchLargeOnly>False</ImageStretchLargeOnly>
+    <ImageStretchLargeOnly>True</ImageStretchLargeOnly>
     <ImageCenter>True</ImageCenter>
     <CopyMovePath1/>
     <CopyMovePath2/>
@@ -1616,7 +1719,7 @@
         <Path>%COMMANDER_PATH%\plugins\wlx\wmp\wmp.wlx</Path>
         <DetectString>(EXT="WAV")|(EXT="MP3")|(EXT="MP4")|(EXT="AVI")</DetectString>
       </WlxPlugin>
-      <WlxPlugin Enabled="True">
+      <WlxPlugin Enabled="False">
         <Name>Imagine</Name>
         <Path>%COMMANDER_PATH%\plugins\wlx\Imagine\Imagine.wlx64</Path>
         <DetectString>MULTIMEDIA</DetectString>
@@ -1629,7 +1732,12 @@
       <WlxPlugin Enabled="True">
         <Name>uLister</Name>
         <Path>%COMMANDER_PATH%\plugins\wlx\uLister\uLister.wlx64</Path>
-        <DetectString/>
+        <DetectString>(EXT!="PNG")|(EXT!="JPG")|(EXT!="JPEG")</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>sLister</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\sLister\sLister.wlx64</Path>
+        <DetectString>MULTIMEDIA&amp; (EXT="PDF" | EXT="DJVU" | EXT="DJV"| EXT="XPS" | EXT="CBZ" | EXT="CBR" )</DetectString>
       </WlxPlugin>
     </WlxPlugins>
     <TweakPluginWidth0>0</TweakPluginWidth0>
