@@ -3,24 +3,6 @@
   <Toolbars>
     <MainToolbar>
       <Row>
-        <Program>
-          <ID>{FF8B40FF-B991-4D37-9487-ED672BD9D123}</ID>
-          <Icon>cm_refresh</Icon>
-          <Hint>刷新(R)</Hint>
-        </Program>
-        <Command>
-          <ID>{8FBFBCDD-682C-44A4-B645-387DF5DB3B56}</ID>
-          <Icon>cm_runterm</Icon>
-          <Command>cm_RunTerm</Command>
-        </Command>
-        <Command>
-          <ID>{3DD52D46-72D9-45B3-83D0-F3F3531D0DC9}</ID>
-          <Icon>cm_options</Icon>
-          <Command>cm_Options</Command>
-        </Command>
-        <Separator>
-          <Style>False</Style>
-        </Separator>
         <Command>
           <ID>{33AFE693-9D41-4A05-8DBF-88933640129B}</ID>
           <Icon>cm_briefview</Icon>
@@ -47,6 +29,11 @@
         <Separator>
           <Style>False</Style>
         </Separator>
+        <Program>
+          <ID>{FF8B40FF-B991-4D37-9487-ED672BD9D123}</ID>
+          <Icon>cm_refresh</Icon>
+          <Hint>刷新(R)</Hint>
+        </Program>
         <Command>
           <ID>{12E8083F-7F6E-4166-A828-02EF4679E57B}</ID>
           <Icon>cm_viewhistoryprev</Icon>
@@ -111,6 +98,9 @@
           <Icon>cm_copyfullnamestoclip</Icon>
           <Command>cm_CopyFullNamesToClip</Command>
         </Command>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
         <Program>
           <ID>{CAA83F78-C648-4DEF-B226-699828342BE9}</ID>
           <Icon>%COMMANDER_PATH%\pixmaps\dctheme\32x32\apps\utilities-terminal.png</Icon>
@@ -118,6 +108,11 @@
           <Command>wt</Command>
           <Params>-d %ds</Params>
         </Program>
+        <Command>
+          <ID>{3DD52D46-72D9-45B3-83D0-F3F3531D0DC9}</ID>
+          <Icon>cm_options</Icon>
+          <Command>cm_Options</Command>
+        </Command>
       </Row>
     </MainToolbar>
     <MiddleToolbar>
@@ -248,8 +243,8 @@
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
     </Viewer>
-    <Editor Enabled="False">
-      <Path/>
+    <Editor Enabled="True">
+      <Path>notepad</Path>
       <Parameters/>
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
@@ -330,10 +325,10 @@
     <UseFrameCursor>False</UseFrameCursor>
     <Foreground>-2147483640</Foreground>
     <Background>-2147483643</Background>
-    <Background2>-2147483617</Background2>
-    <Cursor>8289147</Cursor>
+    <Background2>-2147483643</Background2>
+    <Cursor>-2147483619</Cursor>
     <CursorText>-2147483634</CursorText>
-    <Mark>128</Mark>
+    <Mark>6053119</Mark>
     <InactiveCursor>-2147483645</InactiveCursor>
     <InactiveMark>128</InactiveMark>
     <UseInvertedSelection>False</UseInvertedSelection>
@@ -809,7 +804,7 @@
     <ShowWarningMessages>True</ShowWarningMessages>
     <SpaceMovesDown>False</SpaceMovesDown>
     <DirBrackets>True</DirBrackets>
-    <InplaceRename>False</InplaceRename>
+    <InplaceRename>True</InplaceRename>
     <InplaceRenameButton>True</InplaceRenameButton>
     <DblClickToParent>False</DblClickToParent>
     <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
@@ -837,9 +832,9 @@
   </AutoRefresh>
   <Icons>
     <Theme>dctheme</Theme>
-    <ShowHiddenDimmed>False</ShowHiddenDimmed>
+    <ShowHiddenDimmed>True</ShowHiddenDimmed>
     <ShowMode>3</ShowMode>
-    <ShowOverlays>False</ShowOverlays>
+    <ShowOverlays>True</ShowOverlays>
     <Size>32</Size>
     <DiskSize>32</DiskSize>
     <DiskAlpha>50</DiskAlpha>
@@ -858,7 +853,7 @@
   </IgnoreList>
   <DirectoryHotList>
     <HotDir Name="Knock 文件 (&amp;K)" Path="C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files"/>
-    <HotDir Name="Double Commander Config" Path="C:\Users\virgi\AppData\Roaming\doublecmd\"/>
+    <HotDir Name="Double Commander Config" Path="C:\Users\virgi\AppData\Roaming\doublecmd"/>
     <HotDir Name="Desktop (&amp;D)" Path="C:\Users\virgi\Desktop"/>
     <HotDir Name="Documents (&amp;O)" Path="C:\Users\virgi\Documents"/>
   </DirectoryHotList>
@@ -1334,14 +1329,14 @@
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>15592941</TextColor>
+          <TextColor>-2147483640</TextColor>
           <Background>-2147483643</Background>
-          <Background2>3289650</Background2>
-          <MarkColor>7500031</MarkColor>
-          <CursorColor>8289147</CursorColor>
+          <Background2>-2147483643</Background2>
+          <MarkColor>6053119</MarkColor>
+          <CursorColor>-2147483619</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>7500031</InactiveMarkColor>
+          <InactiveMarkColor>6053119</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -1357,14 +1352,14 @@
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>15592941</TextColor>
+          <TextColor>-2147483640</TextColor>
           <Background>-2147483643</Background>
-          <Background2>3289650</Background2>
-          <MarkColor>7500031</MarkColor>
-          <CursorColor>8289147</CursorColor>
+          <Background2>-2147483643</Background2>
+          <MarkColor>6053119</MarkColor>
+          <CursorColor>-2147483619</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>7500031</InactiveMarkColor>
+          <InactiveMarkColor>6053119</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -1380,14 +1375,14 @@
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>15592941</TextColor>
+          <TextColor>-2147483640</TextColor>
           <Background>-2147483643</Background>
-          <Background2>3289650</Background2>
-          <MarkColor>7500031</MarkColor>
-          <CursorColor>8289147</CursorColor>
+          <Background2>-2147483643</Background2>
+          <MarkColor>6053119</MarkColor>
+          <CursorColor>-2147483619</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>7500031</InactiveMarkColor>
+          <InactiveMarkColor>6053119</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -1403,14 +1398,14 @@
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>15592941</TextColor>
+          <TextColor>-2147483640</TextColor>
           <Background>-2147483643</Background>
-          <Background2>3289650</Background2>
-          <MarkColor>7500031</MarkColor>
-          <CursorColor>8289147</CursorColor>
+          <Background2>-2147483643</Background2>
+          <MarkColor>6053119</MarkColor>
+          <CursorColor>-2147483619</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>7500031</InactiveMarkColor>
+          <InactiveMarkColor>6053119</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -1652,4 +1647,28 @@
     <PluginFilenameStyle>1</PluginFilenameStyle>
     <PluginPathToBeRelativeTo>%COMMANDER_PATH%</PluginPathToBeRelativeTo>
   </Plugins>
+  <MultiRenamePresets>
+    <LastPreset>{BC322BF1-2185-47F6-9F99-D27ED1E23E53}</LastPreset>
+    <Presets>
+      <Preset>
+        <Name>{BC322BF1-2185-47F6-9F99-D27ED1E23E53}</Name>
+        <Filename>[N]</Filename>
+        <Extension>[E]</Extension>
+        <FilenameStyle>0</FilenameStyle>
+        <ExtensionStyle>0</ExtensionStyle>
+        <Find/>
+        <Replace/>
+        <RegExp>False</RegExp>
+        <UseSubs>False</UseSubs>
+        <Counter>1</Counter>
+        <Interval>1</Interval>
+        <Width>0</Width>
+        <Log>
+          <Enabled>False</Enabled>
+          <Append>False</Append>
+          <File/>
+        </Log>
+      </Preset>
+    </Presets>
+  </MultiRenamePresets>
 </doublecmd>

@@ -15,24 +15,12 @@
         <Command>cm_RenameOnly</Command>
       </Hotkey>
       <Hotkey>
-        <Shortcut>F3</Shortcut>
-        <Command>cm_View</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>F4</Shortcut>
-        <Command>cm_Edit</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>F5</Shortcut>
+        <Shortcut>Alt+5</Shortcut>
         <Command>cm_Copy</Command>
       </Hotkey>
       <Hotkey>
-        <Shortcut>F6</Shortcut>
+        <Shortcut>Alt+6</Shortcut>
         <Command>cm_Rename</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>F7</Shortcut>
-        <Command>cm_MakeDir</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>F8</Shortcut>
@@ -292,56 +280,6 @@
         <Command>cm_TestArchive</Command>
       </Hotkey>
       <Hotkey>
-        <Shortcut>Alt+1</Shortcut>
-        <Command>cm_ActivateTabByIndex</Command>
-        <Param>index=1</Param>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Alt+2</Shortcut>
-        <Command>cm_ActivateTabByIndex</Command>
-        <Param>index=2</Param>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Alt+3</Shortcut>
-        <Command>cm_ActivateTabByIndex</Command>
-        <Param>index=3</Param>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Alt+4</Shortcut>
-        <Command>cm_ActivateTabByIndex</Command>
-        <Param>index=4</Param>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Alt+5</Shortcut>
-        <Command>cm_ActivateTabByIndex</Command>
-        <Param>index=5</Param>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Alt+6</Shortcut>
-        <Command>cm_ActivateTabByIndex</Command>
-        <Param>index=6</Param>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Alt+7</Shortcut>
-        <Command>cm_ActivateTabByIndex</Command>
-        <Param>index=7</Param>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Alt+8</Shortcut>
-        <Command>cm_ActivateTabByIndex</Command>
-        <Param>index=8</Param>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Alt+9</Shortcut>
-        <Command>cm_ActivateTabByIndex</Command>
-        <Param>index=9</Param>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Alt+`</Shortcut>
-        <Command>cm_ActivateTabByIndex</Command>
-        <Param>index=-1</Param>
-      </Hotkey>
-      <Hotkey>
         <Shortcut>Ctrl+1</Shortcut>
         <Command>cm_OpenDriveByIndex</Command>
         <Param>index=1</Param>
@@ -385,6 +323,18 @@
         <Shortcut>Ctrl+9</Shortcut>
         <Command>cm_OpenDriveByIndex</Command>
         <Param>index=9</Param>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>Alt+3</Shortcut>
+        <Command>cm_View</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>Alt+4</Shortcut>
+        <Command>cm_Edit</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>Alt+7</Shortcut>
+        <Command>cm_MakeDir</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>Del</Shortcut>
