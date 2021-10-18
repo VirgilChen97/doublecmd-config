@@ -3,27 +3,49 @@
   <Toolbars>
     <MainToolbar>
       <Row>
+        <Menu>
+          <ID>{51DF71FC-C538-4074-BA9E-750CEB87C8B7}</ID>
+          <Icon>cm_panelssplitterperpos</Icon>
+          <Hint>面板</Hint>
+          <MenuItems>
+            <Command>
+              <ID>{051F5286-E282-4A56-B9FB-6B8FBE22DB40}</ID>
+              <Icon>cm_panelssplitterperpos</Icon>
+              <Hint>双窗口</Hint>
+              <Command>cm_PanelsSplitterPerPos</Command>
+              <Param>splitpct=50</Param>
+            </Command>
+            <Command>
+              <ID>{E5F66187-2932-4FC4-BF2C-7A89DB45A241}</ID>
+              <Icon>cm_panelssplitterperpos</Icon>
+              <Hint>单窗口</Hint>
+              <Command>cm_PanelsSplitterPerPos</Command>
+              <Param>splitpct=100</Param>
+            </Command>
+          </MenuItems>
+        </Menu>
         <Command>
           <ID>{33AFE693-9D41-4A05-8DBF-88933640129B}</ID>
           <Icon>cm_briefview</Icon>
+          <Hint>列表</Hint>
           <Command>cm_BriefView</Command>
         </Command>
         <Command>
           <ID>{9BA17197-2EF4-4BBC-98CE-675505AB6C43}</ID>
           <Icon>cm_columnsview</Icon>
+          <Hint>详细</Hint>
           <Command>cm_ColumnsView</Command>
         </Command>
         <Command>
           <ID>{BFFA2C94-48D9-497E-9022-75E60DEF0588}</ID>
           <Icon>cm_thumbnailsview</Icon>
+          <Hint>缩略</Hint>
           <Command>cm_ThumbnailsView</Command>
         </Command>
-        <Separator>
-          <Style>False</Style>
-        </Separator>
         <Command>
           <ID>{35FD655A-C8EB-418B-AE28-BC4BE0F7579A}</ID>
           <Icon>cm_flatview</Icon>
+          <Hint>平铺</Hint>
           <Command>cm_FlatView</Command>
         </Command>
         <Separator>
@@ -32,34 +54,27 @@
         <Program>
           <ID>{FF8B40FF-B991-4D37-9487-ED672BD9D123}</ID>
           <Icon>cm_refresh</Icon>
-          <Hint>刷新(R)</Hint>
+          <Hint>刷新</Hint>
         </Program>
-        <Command>
-          <ID>{12E8083F-7F6E-4166-A828-02EF4679E57B}</ID>
-          <Icon>cm_viewhistoryprev</Icon>
-          <Command>cm_ViewHistoryPrev</Command>
-        </Command>
-        <Command>
-          <ID>{ECAA8728-495C-48CB-B0F5-05AE3891F152}</ID>
-          <Icon>cm_viewhistorynext</Icon>
-          <Command>cm_ViewHistoryNext</Command>
-        </Command>
         <Separator>
           <Style>False</Style>
         </Separator>
         <Command>
           <ID>{281AFFA0-0818-4FB5-9C6A-EFC866F321B6}</ID>
           <Icon>cm_markplus</Icon>
+          <Hint>选择</Hint>
           <Command>cm_MarkPlus</Command>
         </Command>
         <Command>
           <ID>{8515C407-B736-4390-B6E7-527107775274}</ID>
           <Icon>cm_markminus</Icon>
+          <Hint>取消选择</Hint>
           <Command>cm_MarkMinus</Command>
         </Command>
         <Command>
           <ID>{95C45751-9E09-4C5F-9EDB-F15BB8E7114D}</ID>
           <Icon>cm_markinvert</Icon>
+          <Hint>反选</Hint>
           <Command>cm_MarkInvert</Command>
         </Command>
         <Separator>
@@ -68,11 +83,13 @@
         <Command>
           <ID>{F3095505-3307-4F49-A7CD-D68A3FE2932E}</ID>
           <Icon>cm_packfiles</Icon>
+          <Hint>压缩</Hint>
           <Command>cm_PackFiles</Command>
         </Command>
         <Command>
           <ID>{4854C490-29F8-4407-8A93-8D48936F3499}</ID>
           <Icon>cm_extractfiles</Icon>
+          <Hint>提取</Hint>
           <Command>cm_ExtractFiles</Command>
         </Command>
         <Separator>
@@ -81,21 +98,25 @@
         <Command>
           <ID>{BA5E4256-AB85-46B3-A506-E9A6AA2CB891}</ID>
           <Icon>cm_search</Icon>
+          <Hint>搜索</Hint>
           <Command>cm_Search</Command>
         </Command>
         <Command>
           <ID>{9129CE8E-E4C4-498E-BEBB-11A78886FA4D}</ID>
           <Icon>cm_multirename</Icon>
+          <Hint>批量重命名</Hint>
           <Command>cm_MultiRename</Command>
         </Command>
         <Command>
           <ID>{D8507019-3C96-41F8-9FF0-C4798410F659}</ID>
           <Icon>cm_syncdirs</Icon>
+          <Hint>同步文件夹</Hint>
           <Command>cm_SyncDirs</Command>
         </Command>
         <Command>
           <ID>{FE338FDB-3AB2-41F5-9229-9BF9A51C7C55}</ID>
           <Icon>cm_copyfullnamestoclip</Icon>
+          <Hint>复制路径</Hint>
           <Command>cm_CopyFullNamesToClip</Command>
         </Command>
         <Separator>
@@ -104,15 +125,1172 @@
         <Program>
           <ID>{CAA83F78-C648-4DEF-B226-699828342BE9}</ID>
           <Icon>%COMMANDER_PATH%\pixmaps\dctheme\32x32\apps\utilities-terminal.png</Icon>
-          <Hint>在终端打开活动面板路径</Hint>
+          <Hint>WT</Hint>
           <Command>wt</Command>
           <Params>-d %Ds</Params>
         </Program>
         <Command>
           <ID>{3DD52D46-72D9-45B3-83D0-F3F3531D0DC9}</ID>
           <Icon>cm_options</Icon>
+          <Hint>选项</Hint>
           <Command>cm_Options</Command>
         </Command>
+        <Menu>
+          <ID>{2AA103A3-DD19-4213-AAC8-0AA1E7947510}</ID>
+          <Icon>cm_doanycmcommand</Icon>
+          <Hint>所有 Double Commander 内部命令</Hint>
+          <MenuItems>
+            <Menu>
+              <ID>{E209DF1D-B8A7-416F-8312-F09026D9D6E6}</ID>
+              <Icon>cm_briefview</Icon>
+              <Hint>活动面板</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{0B7EF7E6-73AA-4269-8739-C1AEEC3A1C96}</ID>
+                  <Icon>cm_briefview</Icon>
+                  <Command>cm_BriefView</Command>
+                </Command>
+                <Command>
+                  <ID>{C9857DBD-7451-40AF-BAE3-B42998C94988}</ID>
+                  <Icon>cm_columnsview</Icon>
+                  <Command>cm_ColumnsView</Command>
+                </Command>
+                <Command>
+                  <ID>{76BD3579-507D-4EC3-9A1A-B02AEBBDA74B}</ID>
+                  <Icon>cm_thumbnailsview</Icon>
+                  <Command>cm_ThumbnailsView</Command>
+                </Command>
+                <Command>
+                  <ID>{64F16769-5275-480E-B292-A552CBAB1D98}</ID>
+                  <Icon>cm_flatview</Icon>
+                  <Command>cm_FlatView</Command>
+                </Command>
+                <Command>
+                  <ID>{1F3472CE-B5D8-4B6E-9353-E7DDAA28A883}</ID>
+                  <Icon>cm_flatviewsel</Icon>
+                  <Command>cm_FlatViewSel</Command>
+                </Command>
+                <Command>
+                  <ID>{32B17E4A-A35E-4D49-AD39-6BACD67894D5}</ID>
+                  <Icon>cm_quickview</Icon>
+                  <Command>cm_QuickView</Command>
+                </Command>
+                <Command>
+                  <ID>{C86F8CBD-968B-4FB4-B783-B773C95E34DB}</ID>
+                  <Icon>cm_sortbyname</Icon>
+                  <Command>cm_SortByName</Command>
+                </Command>
+                <Command>
+                  <ID>{B5BD284F-703C-48CE-A2D8-06E869DC4D8F}</ID>
+                  <Icon>cm_sortbyext</Icon>
+                  <Command>cm_SortByExt</Command>
+                </Command>
+                <Command>
+                  <ID>{E99B28A0-A3AD-46CA-B05E-697BC086B9C3}</ID>
+                  <Icon>cm_sortbysize</Icon>
+                  <Command>cm_SortBySize</Command>
+                </Command>
+                <Command>
+                  <ID>{549C0055-6E5E-41CF-8274-9B112E0E3072}</ID>
+                  <Icon>cm_sortbydate</Icon>
+                  <Command>cm_SortByDate</Command>
+                </Command>
+                <Command>
+                  <ID>{D407531A-A48A-468B-808F-3F5A9D67AC59}</ID>
+                  <Icon>cm_sortbyattr</Icon>
+                  <Command>cm_SortByAttr</Command>
+                </Command>
+                <Command>
+                  <ID>{18E7FA57-B9BC-4D20-96BB-9D40C00EA06F}</ID>
+                  <Icon>cm_reverseorder</Icon>
+                  <Command>cm_ReverseOrder</Command>
+                </Command>
+                <Command>
+                  <ID>{5C729F48-2060-4866-A0D9-CE1ACDB8B56B}</ID>
+                  <Icon>cm_srcopendrives</Icon>
+                  <Command>cm_SrcOpenDrives</Command>
+                </Command>
+                <Command>
+                  <ID>{A643BF81-E56D-40F9-AB60-D1D733FB3542}</ID>
+                  <Icon>cm_universalsingledirectsort</Icon>
+                  <Command>cm_UniversalSingleDirectSort</Command>
+                </Command>
+                <Command>
+                  <ID>{9EDAD429-F681-4C57-8D2F-0471927ABFA8}</ID>
+                  <Icon>cm_countdircontent</Icon>
+                  <Command>cm_CountDirContent</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{3E6F517C-0455-4F39-AB6A-C24AC9604927}</ID>
+              <Icon>cm_leftbriefview</Icon>
+              <Hint>左侧面板</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{14F84F5D-4863-4A62-B8D9-D1B28A22D7A4}</ID>
+                  <Icon>cm_leftbriefview</Icon>
+                  <Command>cm_LeftBriefView</Command>
+                </Command>
+                <Command>
+                  <ID>{870A99BD-0F47-46EF-A0A1-3DF899170615}</ID>
+                  <Icon>cm_leftcolumnsview</Icon>
+                  <Command>cm_LeftColumnsView</Command>
+                </Command>
+                <Command>
+                  <ID>{15988B23-0DF2-458B-B5D8-BC2BD4463D73}</ID>
+                  <Icon>cm_leftthumbview</Icon>
+                  <Command>cm_LeftThumbView</Command>
+                </Command>
+                <Command>
+                  <ID>{04693F56-C946-4102-9117-73EF7DB145B7}</ID>
+                  <Icon>cm_leftflatview</Icon>
+                  <Command>cm_LeftFlatView</Command>
+                </Command>
+                <Command>
+                  <ID>{623E878D-ADF2-442E-A06E-EC52DEEAD428}</ID>
+                  <Icon>cm_leftsortbyname</Icon>
+                  <Command>cm_LeftSortByName</Command>
+                </Command>
+                <Command>
+                  <ID>{C1CE14A8-6944-47A0-938B-53341D3128BE}</ID>
+                  <Icon>cm_leftsortbyext</Icon>
+                  <Command>cm_LeftSortByExt</Command>
+                </Command>
+                <Command>
+                  <ID>{1F620DEF-7260-4BB5-8271-526100F3DDDB}</ID>
+                  <Icon>cm_leftsortbysize</Icon>
+                  <Command>cm_LeftSortBySize</Command>
+                </Command>
+                <Command>
+                  <ID>{2C03881D-206F-4FE2-8979-32CB6695248E}</ID>
+                  <Icon>cm_leftsortbydate</Icon>
+                  <Command>cm_LeftSortByDate</Command>
+                </Command>
+                <Command>
+                  <ID>{BC324172-95AB-45D5-B869-D75F77AC4506}</ID>
+                  <Icon>cm_leftsortbyattr</Icon>
+                  <Command>cm_LeftSortByAttr</Command>
+                </Command>
+                <Command>
+                  <ID>{29BAF541-00AF-4DF4-9D39-2955F08E9820}</ID>
+                  <Icon>cm_leftreverseorder</Icon>
+                  <Command>cm_LeftReverseOrder</Command>
+                </Command>
+                <Command>
+                  <ID>{457C6C69-F840-4C84-9E7E-3106F428A9DE}</ID>
+                  <Icon>cm_leftopendrives</Icon>
+                  <Command>cm_LeftOpenDrives</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{69D2CF81-1EE9-4E2C-A05C-CA5D650DDCEA}</ID>
+              <Icon>cm_rightbriefview</Icon>
+              <Hint>右侧面板</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{9834BB06-47B2-45E1-9284-87EEE17D1824}</ID>
+                  <Icon>cm_rightbriefview</Icon>
+                  <Command>cm_RightBriefView</Command>
+                </Command>
+                <Command>
+                  <ID>{550E551D-6DAE-405A-9B05-3FA5A45FE1A1}</ID>
+                  <Icon>cm_rightcolumnsview</Icon>
+                  <Command>cm_RightColumnsView</Command>
+                </Command>
+                <Command>
+                  <ID>{0A48D77B-F5CB-482C-A5D5-2A0B44787B15}</ID>
+                  <Icon>cm_rightthumbview</Icon>
+                  <Command>cm_RightThumbView</Command>
+                </Command>
+                <Command>
+                  <ID>{2E030F66-D585-473F-B9BD-DBAF1FF1783A}</ID>
+                  <Icon>cm_rightflatview</Icon>
+                  <Command>cm_RightFlatView</Command>
+                </Command>
+                <Command>
+                  <ID>{FEEA3A7E-B5CF-4C85-9BB3-E841441D71BF}</ID>
+                  <Icon>cm_rightsortbyname</Icon>
+                  <Command>cm_RightSortByName</Command>
+                </Command>
+                <Command>
+                  <ID>{EDFF2254-8BCF-4279-A2B9-A028E58EF8CD}</ID>
+                  <Icon>cm_rightsortbyext</Icon>
+                  <Command>cm_RightSortByExt</Command>
+                </Command>
+                <Command>
+                  <ID>{7A34117F-DB20-426A-9C83-3D8F1F861E24}</ID>
+                  <Icon>cm_rightsortbysize</Icon>
+                  <Command>cm_RightSortBySize</Command>
+                </Command>
+                <Command>
+                  <ID>{DC5493D0-49AF-4985-B7DF-CCC435643FF4}</ID>
+                  <Icon>cm_rightsortbydate</Icon>
+                  <Command>cm_RightSortByDate</Command>
+                </Command>
+                <Command>
+                  <ID>{2BEBB9AC-4F18-4AA0-9803-11BAB80B0679}</ID>
+                  <Icon>cm_rightsortbyattr</Icon>
+                  <Command>cm_RightSortByAttr</Command>
+                </Command>
+                <Command>
+                  <ID>{C7D0C9C6-8336-41FC-8430-1A308453DCB1}</ID>
+                  <Icon>cm_rightreverseorder</Icon>
+                  <Command>cm_RightReverseOrder</Command>
+                </Command>
+                <Command>
+                  <ID>{5276E059-3888-4433-B4A0-E704C360C54F}</ID>
+                  <Icon>cm_rightopendrives</Icon>
+                  <Command>cm_RightOpenDrives</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{2367960B-B6DD-4BE4-B11E-76F8CF2C3254}</ID>
+              <Icon>cm_view</Icon>
+              <Hint>文件操作</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{C9C4F6D4-5583-466F-A59E-460F62D10E43}</ID>
+                  <Icon>cm_view</Icon>
+                  <Command>cm_View</Command>
+                </Command>
+                <Command>
+                  <ID>{A91A48B0-ED31-4F79-AD13-9564F7E5EA74}</ID>
+                  <Icon>cm_edit</Icon>
+                  <Command>cm_Edit</Command>
+                </Command>
+                <Command>
+                  <ID>{9859A772-7E6A-4459-9BA3-586E9FF0FAC5}</ID>
+                  <Icon>cm_editnew</Icon>
+                  <Command>cm_EditNew</Command>
+                </Command>
+                <Command>
+                  <ID>{2CB17E52-9FD0-4131-9AE8-110BD413EB9D}</ID>
+                  <Icon>cm_copy</Icon>
+                  <Command>cm_Copy</Command>
+                </Command>
+                <Command>
+                  <ID>{5A6923B9-EA64-4881-A7A8-EB1B1C0FEF04}</ID>
+                  <Icon>cm_copynoask</Icon>
+                  <Command>cm_CopyNoAsk</Command>
+                </Command>
+                <Command>
+                  <ID>{582D9937-E08E-4AF0-A0A9-B4581D42D81B}</ID>
+                  <Icon>cm_copysamepanel</Icon>
+                  <Command>cm_CopySamePanel</Command>
+                </Command>
+                <Command>
+                  <ID>{9224DE48-033D-464D-A0AC-A6A2F081FE07}</ID>
+                  <Icon>cm_rename</Icon>
+                  <Command>cm_Rename</Command>
+                </Command>
+                <Command>
+                  <ID>{B62FA645-773C-427B-82DC-7840CCAB4FC6}</ID>
+                  <Icon>cm_renamenoask</Icon>
+                  <Command>cm_RenameNoAsk</Command>
+                </Command>
+                <Command>
+                  <ID>{BCBDA6C7-E908-4304-9648-54D109D599C5}</ID>
+                  <Icon>cm_renameonly</Icon>
+                  <Command>cm_RenameOnly</Command>
+                </Command>
+                <Command>
+                  <ID>{16551292-543C-4A1E-A413-CAFF317E46AA}</ID>
+                  <Icon>cm_makedir</Icon>
+                  <Command>cm_MakeDir</Command>
+                </Command>
+                <Command>
+                  <ID>{6270F1A7-33B3-4AB0-8910-2FD509885E9A}</ID>
+                  <Icon>cm_delete</Icon>
+                  <Command>cm_Delete</Command>
+                </Command>
+                <Command>
+                  <ID>{828A6208-9698-4866-B8BA-411CCCBE6A52}</ID>
+                  <Icon>cm_wipe</Icon>
+                  <Command>cm_Wipe</Command>
+                </Command>
+                <Command>
+                  <ID>{BC4045DF-B3EE-4FF8-BB33-E40D54839051}</ID>
+                  <Icon>cm_packfiles</Icon>
+                  <Command>cm_PackFiles</Command>
+                </Command>
+                <Command>
+                  <ID>{DCA473CB-9A67-43A3-9AC0-E39798A5D886}</ID>
+                  <Icon>cm_testarchive</Icon>
+                  <Command>cm_TestArchive</Command>
+                </Command>
+                <Command>
+                  <ID>{81947130-B798-41E6-A64F-61AA29A0DE42}</ID>
+                  <Icon>cm_openarchive</Icon>
+                  <Command>cm_OpenArchive</Command>
+                </Command>
+                <Command>
+                  <ID>{793FFD0A-41E5-4CD4-BB33-121220494147}</ID>
+                  <Icon>cm_extractfiles</Icon>
+                  <Command>cm_ExtractFiles</Command>
+                </Command>
+                <Command>
+                  <ID>{0B004843-299B-4877-AD22-2F4FCAD49180}</ID>
+                  <Icon>cm_openvirtualfilesystemlist</Icon>
+                  <Command>cm_OpenVirtualFileSystemList</Command>
+                </Command>
+                <Command>
+                  <ID>{942C2C8E-62AC-4723-B9F9-F82FE0CA8028}</ID>
+                  <Icon>cm_fileproperties</Icon>
+                  <Command>cm_FileProperties</Command>
+                </Command>
+                <Command>
+                  <ID>{1226D1B0-E26F-4334-B6C8-E3DBE2F10ACB}</ID>
+                  <Icon>cm_setfileproperties</Icon>
+                  <Command>cm_SetFileProperties</Command>
+                </Command>
+                <Command>
+                  <ID>{3E842B5C-F9F2-4856-BE0F-EE71B9629529}</ID>
+                  <Icon>cm_editcomment</Icon>
+                  <Command>cm_EditComment</Command>
+                </Command>
+                <Command>
+                  <ID>{4595D979-CD6B-48B7-B12C-BCB3B21A262A}</ID>
+                  <Icon>cm_contextmenu</Icon>
+                  <Command>cm_ContextMenu</Command>
+                </Command>
+                <Command>
+                  <ID>{4B53EEF4-B8ED-42FB-8B18-85415C996687}</ID>
+                  <Icon>cm_open</Icon>
+                  <Command>cm_Open</Command>
+                </Command>
+                <Command>
+                  <ID>{AE22F5C5-9A38-40B5-9913-109601A7BB0D}</ID>
+                  <Icon>cm_shellexecute</Icon>
+                  <Command>cm_ShellExecute</Command>
+                </Command>
+                <Command>
+                  <ID>{C45813A3-A516-47CB-84BC-8380DEC7FB57}</ID>
+                  <Icon>cm_symlink</Icon>
+                  <Command>cm_SymLink</Command>
+                </Command>
+                <Command>
+                  <ID>{52330E0A-051C-4178-AE9B-C4D14E24223E}</ID>
+                  <Icon>cm_hardlink</Icon>
+                  <Command>cm_HardLink</Command>
+                </Command>
+                <Command>
+                  <ID>{1E39BA98-BD17-49FB-9EED-223B9CAD1B6A}</ID>
+                  <Icon>cm_filespliter</Icon>
+                  <Command>cm_FileSpliter</Command>
+                </Command>
+                <Command>
+                  <ID>{62B1D00E-7BE7-489B-B984-A6ED619FEB17}</ID>
+                  <Icon>cm_filelinker</Icon>
+                  <Command>cm_FileLinker</Command>
+                </Command>
+                <Command>
+                  <ID>{CA03B882-A263-4FF1-A1EE-92C8E2381133}</ID>
+                  <Icon>cm_checksumcalc</Icon>
+                  <Command>cm_CheckSumCalc</Command>
+                </Command>
+                <Command>
+                  <ID>{A8510134-1FEE-400B-AC63-568808A22DF0}</ID>
+                  <Icon>cm_checksumverify</Icon>
+                  <Command>cm_CheckSumVerify</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{59EBA2C5-3C38-42D4-9A97-9A7D528C6E2F}</ID>
+              <Icon>cm_options</Icon>
+              <Hint>配置</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{F2DD830D-E07C-48AE-8F6D-D02469C3D778}</ID>
+                  <Icon>cm_options</Icon>
+                  <Command>cm_Options</Command>
+                </Command>
+                <Command>
+                  <ID>{8AABAF12-5C34-4BD8-9390-9E09AD1A70C0}</ID>
+                  <Icon>cm_configtoolbars</Icon>
+                  <Command>cm_ConfigToolbars</Command>
+                </Command>
+                <Command>
+                  <ID>{89660FC1-FF26-4064-A1BB-5E2FBD2A04D7}</ID>
+                  <Icon>cm_configdirhotlist</Icon>
+                  <Command>cm_ConfigDirHotList</Command>
+                </Command>
+                <Command>
+                  <ID>{AC78F4FE-6DAC-446F-B7F8-AA2CE03DADBF}</ID>
+                  <Icon>cm_workwithdirectoryhotlist</Icon>
+                  <Command>cm_WorkWithDirectoryHotlist</Command>
+                </Command>
+                <Command>
+                  <ID>{420A55FC-C07D-4993-A074-AC3193348DB3}</ID>
+                  <Icon>cm_fileassoc</Icon>
+                  <Command>cm_FileAssoc</Command>
+                </Command>
+                <Command>
+                  <ID>{AF448D03-9C44-45C4-9D2F-75A5F3C1A200}</ID>
+                  <Icon>cm_configfoldertabs</Icon>
+                  <Command>cm_ConfigFolderTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{4B49F17E-2D60-44BE-AC92-03C3AFE2BF5C}</ID>
+                  <Icon>cm_configfavoritetabs</Icon>
+                  <Command>cm_ConfigFavoriteTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{5B51094A-1B42-4292-9DCF-53E1939E6DAC}</ID>
+                  <Icon>cm_configtreeviewmenus</Icon>
+                  <Command>cm_ConfigTreeViewMenus</Command>
+                </Command>
+                <Command>
+                  <ID>{13C46FED-629D-4EF3-AFDD-AC7819AAE2F4}</ID>
+                  <Icon>cm_configtreeviewmenuscolors</Icon>
+                  <Command>cm_ConfigTreeViewMenusColors</Command>
+                </Command>
+                <Command>
+                  <ID>{CBB704E7-0CB0-41B6-9955-606105282085}</ID>
+                  <Icon>cm_configsearches</Icon>
+                  <Command>cm_ConfigSearches</Command>
+                </Command>
+                <Command>
+                  <ID>{CC6D1410-D255-4FCB-86A8-863CFEA0E7C4}</ID>
+                  <Icon>cm_confighotkeys</Icon>
+                  <Command>cm_ConfigHotKeys</Command>
+                </Command>
+                <Command>
+                  <ID>{209869E2-F217-4EB5-97AA-C90EF76D3FB9}</ID>
+                  <Icon>cm_configsavepos</Icon>
+                  <Command>cm_ConfigSavePos</Command>
+                </Command>
+                <Command>
+                  <ID>{0B9E985D-B713-47F2-8133-735CFC4107CE}</ID>
+                  <Icon>cm_configsavesettings</Icon>
+                  <Command>cm_ConfigSaveSettings</Command>
+                </Command>
+                <Command>
+                  <ID>{A44A43C6-E1DC-4A3B-A6B6-A5C2657F01DD}</ID>
+                  <Icon>cm_configarchivers</Icon>
+                  <Command>cm_ConfigArchivers</Command>
+                </Command>
+                <Command>
+                  <ID>{592DA129-76A3-4D48-A3D8-EAE1231CE58A}</ID>
+                  <Icon>cm_configtooltips</Icon>
+                  <Command>cm_ConfigTooltips</Command>
+                </Command>
+                <Command>
+                  <ID>{9DFB22DE-7104-4154-8575-0C793DECA01A}</ID>
+                  <Icon>cm_configplugins</Icon>
+                  <Command>cm_ConfigPlugins</Command>
+                </Command>
+                <Command>
+                  <ID>{50BE7310-A5A4-4149-A3B2-56A5589A171E}</ID>
+                  <Icon>cm_addplugin</Icon>
+                  <Command>cm_AddPlugin</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{1E3361C9-8E18-4C81-905F-38BEA1D013CA}</ID>
+              <Icon>cm_networkconnect</Icon>
+              <Hint>网络</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{042DD0D6-4E0D-4148-A436-676D7D1F9E82}</ID>
+                  <Icon>cm_networkconnect</Icon>
+                  <Command>cm_NetworkConnect</Command>
+                </Command>
+                <Command>
+                  <ID>{FC571FFB-5F3F-48A9-A464-90D1E605B4BA}</ID>
+                  <Icon>cm_networkdisconnect</Icon>
+                  <Command>cm_NetworkDisconnect</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{215DEAC3-131D-4B84-B3A1-B3EFC78A1519}</ID>
+              <Icon>cm_calculatespace</Icon>
+              <Hint>杂项</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{5F46351E-81DC-416B-A365-36E6F7C0850C}</ID>
+                  <Icon>cm_calculatespace</Icon>
+                  <Command>cm_CalculateSpace</Command>
+                </Command>
+                <Command>
+                  <ID>{5A2771F3-361B-4A0F-BF08-C596C783E86B}</ID>
+                  <Icon>cm_benchmark</Icon>
+                  <Command>cm_Benchmark</Command>
+                </Command>
+                <Command>
+                  <ID>{F36DA285-1BAC-46DA-B7E4-E69CC7957EB4}</ID>
+                  <Icon>cm_runterm</Icon>
+                  <Command>cm_RunTerm</Command>
+                </Command>
+                <Command>
+                  <ID>{D8531487-713E-4DAB-B04C-60122777A90C}</ID>
+                  <Icon>cm_executescript</Icon>
+                  <Command>cm_ExecuteScript</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{EE77A81F-C867-4CCB-9DA6-BFD902BF4FA1}</ID>
+              <Icon>cm_markplus</Icon>
+              <Hint>标记</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{DF360775-18CE-4BE3-ACDD-606C7027A1C4}</ID>
+                  <Icon>cm_markplus</Icon>
+                  <Command>cm_MarkPlus</Command>
+                </Command>
+                <Command>
+                  <ID>{71EA1CAE-4D4A-4C4F-8EA1-7B2D6414A963}</ID>
+                  <Icon>cm_markminus</Icon>
+                  <Command>cm_MarkMinus</Command>
+                </Command>
+                <Command>
+                  <ID>{4CB8E17A-9F96-4153-819D-A06C086F6B4B}</ID>
+                  <Icon>cm_markmarkall</Icon>
+                  <Command>cm_MarkMarkAll</Command>
+                </Command>
+                <Command>
+                  <ID>{68678F86-A280-4A93-8278-55D63546785D}</ID>
+                  <Icon>cm_markunmarkall</Icon>
+                  <Command>cm_MarkUnmarkAll</Command>
+                </Command>
+                <Command>
+                  <ID>{B0024FE3-1EEE-4902-A2E4-70C6A72C8738}</ID>
+                  <Icon>cm_markinvert</Icon>
+                  <Command>cm_MarkInvert</Command>
+                </Command>
+                <Command>
+                  <ID>{6B71F81A-868C-4DEC-8909-DA7FD0CC9FA2}</ID>
+                  <Icon>cm_markcurrentpath</Icon>
+                  <Command>cm_MarkCurrentPath</Command>
+                </Command>
+                <Command>
+                  <ID>{5ACA6590-AC89-4CF2-A0FC-8E5DCE2C2C72}</ID>
+                  <Icon>cm_unmarkcurrentpath</Icon>
+                  <Command>cm_UnmarkCurrentPath</Command>
+                </Command>
+                <Command>
+                  <ID>{CF36F121-8122-4CE7-8546-B13FAB9CBAB4}</ID>
+                  <Icon>cm_markcurrentname</Icon>
+                  <Command>cm_MarkCurrentName</Command>
+                </Command>
+                <Command>
+                  <ID>{27AA3CD7-B44D-4656-B6ED-6139B9FF5429}</ID>
+                  <Icon>cm_unmarkcurrentname</Icon>
+                  <Command>cm_UnmarkCurrentName</Command>
+                </Command>
+                <Command>
+                  <ID>{1C73A5FA-7205-4206-8E7D-74FF084E27FC}</ID>
+                  <Icon>cm_markcurrentextension</Icon>
+                  <Command>cm_MarkCurrentExtension</Command>
+                </Command>
+                <Command>
+                  <ID>{91A6DB1D-BB8B-4751-9C2B-F2F13E3C890D}</ID>
+                  <Icon>cm_unmarkcurrentextension</Icon>
+                  <Command>cm_UnmarkCurrentExtension</Command>
+                </Command>
+                <Command>
+                  <ID>{C75DF2C7-66D9-4BA7-9C28-5D1376F496A6}</ID>
+                  <Icon>cm_markcurrentnameext</Icon>
+                  <Command>cm_MarkCurrentNameExt</Command>
+                </Command>
+                <Command>
+                  <ID>{E5598F07-45CE-43ED-B51C-1BD22634A65D}</ID>
+                  <Icon>cm_unmarkcurrentnameext</Icon>
+                  <Command>cm_UnmarkCurrentNameExt</Command>
+                </Command>
+                <Command>
+                  <ID>{2AC4B34F-A11C-4747-ADA2-1A95F4E84696}</ID>
+                  <Icon>cm_comparedirectories</Icon>
+                  <Command>cm_CompareDirectories</Command>
+                </Command>
+                <Command>
+                  <ID>{20FCC5DE-C358-4189-B26F-7AD6CB75E5AF}</ID>
+                  <Icon>cm_saveselection</Icon>
+                  <Command>cm_SaveSelection</Command>
+                </Command>
+                <Command>
+                  <ID>{36A017AC-ACE1-440E-83D3-C7099CB59794}</ID>
+                  <Icon>cm_restoreselection</Icon>
+                  <Command>cm_RestoreSelection</Command>
+                </Command>
+                <Command>
+                  <ID>{B3A0A311-7472-4DBC-A846-CD891FCC3EEE}</ID>
+                  <Icon>cm_saveselectiontofile</Icon>
+                  <Command>cm_SaveSelectionToFile</Command>
+                </Command>
+                <Command>
+                  <ID>{5001F763-0525-4BD3-8DC7-4C3766BF6A99}</ID>
+                  <Icon>cm_loadselectionfromfile</Icon>
+                  <Command>cm_LoadSelectionFromFile</Command>
+                </Command>
+                <Command>
+                  <ID>{FBCF6321-FAEE-45FA-9ECD-5BF4245AA4D2}</ID>
+                  <Icon>cm_loadselectionfromclip</Icon>
+                  <Command>cm_LoadSelectionFromClip</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{7BE90ABA-C8DF-4B80-82D6-85087D422EDF}</ID>
+              <Icon>cm_cuttoclipboard</Icon>
+              <Hint>剪贴板</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{D0DDC3F7-A8A6-448D-AD6D-58429F465444}</ID>
+                  <Icon>cm_cuttoclipboard</Icon>
+                  <Command>cm_CutToClipboard</Command>
+                </Command>
+                <Command>
+                  <ID>{A7381606-049B-41E4-B8B9-3CC30A2F8117}</ID>
+                  <Icon>cm_copytoclipboard</Icon>
+                  <Command>cm_CopyToClipboard</Command>
+                </Command>
+                <Command>
+                  <ID>{6223993E-DED5-4FE8-A3D5-CD701B0CC318}</ID>
+                  <Icon>cm_pastefromclipboard</Icon>
+                  <Command>cm_PasteFromClipboard</Command>
+                </Command>
+                <Command>
+                  <ID>{C7CFB700-7B23-411F-96B3-47B1AB290223}</ID>
+                  <Icon>cm_copynamestoclip</Icon>
+                  <Command>cm_CopyNamesToClip</Command>
+                </Command>
+                <Command>
+                  <ID>{D9B032A2-DAD1-4CD6-B711-BD70172504A3}</ID>
+                  <Icon>cm_copyfullnamestoclip</Icon>
+                  <Command>cm_CopyFullNamesToClip</Command>
+                </Command>
+                <Command>
+                  <ID>{ABDA36FD-7875-4581-9FDD-6DC969265D25}</ID>
+                  <Icon>cm_copypathoffilestoclip</Icon>
+                  <Command>cm_CopyPathOfFilesToClip</Command>
+                </Command>
+                <Command>
+                  <ID>{EB76C7E9-C8AF-4782-AD3D-FD90E6BEA01A}</ID>
+                  <Icon>cm_copypathnosepoffilestoclip</Icon>
+                  <Command>cm_CopyPathNoSepOfFilesToClip</Command>
+                </Command>
+                <Command>
+                  <ID>{10899849-FCD3-4B10-9A02-5B570631E544}</ID>
+                  <Icon>cm_copyfiledetailstoclip</Icon>
+                  <Command>cm_CopyFileDetailsToClip</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{27FB1CC5-3025-4ABE-B869-0DBDCC2E1332}</ID>
+              <Icon>cm_dirhistory</Icon>
+              <Hint>导航</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{2049D401-7AA7-4269-B6FC-93B4DD59F0A9}</ID>
+                  <Icon>cm_dirhistory</Icon>
+                  <Command>cm_DirHistory</Command>
+                </Command>
+                <Command>
+                  <ID>{088BEE19-D57C-40B8-B119-5E37166E54BB}</ID>
+                  <Icon>cm_dirhotlist</Icon>
+                  <Command>cm_DirHotList</Command>
+                </Command>
+                <Command>
+                  <ID>{E9361722-1850-416F-A56E-9C2D5980658E}</ID>
+                  <Icon>cm_syncchangedir</Icon>
+                  <Command>cm_SyncChangeDir</Command>
+                </Command>
+                <Command>
+                  <ID>{D5F11E1C-7D0D-4EF2-939A-C6E164A9FBE1}</ID>
+                  <Icon>cm_changedirtoparent</Icon>
+                  <Command>cm_ChangeDirToParent</Command>
+                </Command>
+                <Command>
+                  <ID>{3CA637CB-3FCD-4D56-8CBE-77A7D4C5CB73}</ID>
+                  <Icon>cm_changedirtohome</Icon>
+                  <Command>cm_ChangeDirToHome</Command>
+                </Command>
+                <Command>
+                  <ID>{A4015BAA-90CB-4D9D-8544-2DDA2CE76BAC}</ID>
+                  <Icon>cm_changedirtoroot</Icon>
+                  <Command>cm_ChangeDirToRoot</Command>
+                </Command>
+                <Command>
+                  <ID>{4F2090A0-6675-4E6B-9190-D2589C4FD1AD}</ID>
+                  <Icon>cm_targetequalsource</Icon>
+                  <Command>cm_TargetEqualSource</Command>
+                </Command>
+                <Command>
+                  <ID>{80052BA6-52B2-4AF9-A5B1-C72EAEA4E5F1}</ID>
+                  <Icon>cm_transferleft</Icon>
+                  <Command>cm_TransferLeft</Command>
+                </Command>
+                <Command>
+                  <ID>{B2730209-36A9-476C-AA52-34869840E72B}</ID>
+                  <Icon>cm_transferright</Icon>
+                  <Command>cm_TransferRight</Command>
+                </Command>
+                <Command>
+                  <ID>{C4FCCF9E-25FE-4A14-94EC-A9BB1C98AE68}</ID>
+                  <Icon>cm_leftequalright</Icon>
+                  <Command>cm_LeftEqualRight</Command>
+                </Command>
+                <Command>
+                  <ID>{3A4FB439-D61C-453D-8041-ED9FEE6DD9AB}</ID>
+                  <Icon>cm_rightequalleft</Icon>
+                  <Command>cm_RightEqualLeft</Command>
+                </Command>
+                <Command>
+                  <ID>{4FC865F1-343F-4BF2-835E-2497AE8B7EE5}</ID>
+                  <Icon>cm_exchange</Icon>
+                  <Command>cm_Exchange</Command>
+                </Command>
+                <Command>
+                  <ID>{698521C6-6AE0-4ED4-84A8-B670B91B7C25}</ID>
+                  <Icon>cm_quicksearch</Icon>
+                  <Command>cm_QuickSearch</Command>
+                </Command>
+                <Command>
+                  <ID>{5540A9F8-B0DF-44FC-ADBB-5DBF894F75F8}</ID>
+                  <Icon>cm_quickfilter</Icon>
+                  <Command>cm_QuickFilter</Command>
+                </Command>
+                <Command>
+                  <ID>{6471A2A6-E44F-4C46-B3A9-A482D6B68FFF}</ID>
+                  <Icon>cm_editpath</Icon>
+                  <Command>cm_EditPath</Command>
+                </Command>
+                <Command>
+                  <ID>{15D67C7C-4D9A-4637-8FC5-18BCD6738153}</ID>
+                  <Icon>cm_changedir</Icon>
+                  <Command>cm_ChangeDir</Command>
+                </Command>
+                <Command>
+                  <ID>{6E154230-01AB-4695-B669-7C4AD86A302C}</ID>
+                  <Icon>cm_gotofirstentry</Icon>
+                  <Command>cm_GoToFirstEntry</Command>
+                </Command>
+                <Command>
+                  <ID>{ADBF4C69-0A75-49A5-ACE3-73230D6A99C1}</ID>
+                  <Icon>cm_gotolastentry</Icon>
+                  <Command>cm_GoToLastEntry</Command>
+                </Command>
+                <Command>
+                  <ID>{9FF91789-86E9-47F9-A8B9-3E8AC0FE10C4}</ID>
+                  <Icon>cm_gotonextentry</Icon>
+                  <Command>cm_GoToNextEntry</Command>
+                </Command>
+                <Command>
+                  <ID>{6D1BDCD1-AF7F-44C5-9DFE-A167CC1B1A34}</ID>
+                  <Icon>cm_gotopreventry</Icon>
+                  <Command>cm_GoToPrevEntry</Command>
+                </Command>
+                <Command>
+                  <ID>{8CA001D5-CBAE-4B4E-B6DB-6949E37A527B}</ID>
+                  <Icon>cm_gotofirstfile</Icon>
+                  <Command>cm_GoToFirstFile</Command>
+                </Command>
+                <Command>
+                  <ID>{6C0CD2F2-1D47-4CD6-8B67-229CF86C9762}</ID>
+                  <Icon>cm_gotolastfile</Icon>
+                  <Command>cm_GoToLastFile</Command>
+                </Command>
+                <Command>
+                  <ID>{5F07B561-38AD-4FF3-838F-68B1C230AC4A}</ID>
+                  <Icon>cm_viewhistory</Icon>
+                  <Command>cm_ViewHistory</Command>
+                </Command>
+                <Command>
+                  <ID>{539F1FAF-4485-4126-A5AF-1840BF1C02A0}</ID>
+                  <Icon>cm_viewhistorynext</Icon>
+                  <Command>cm_ViewHistoryNext</Command>
+                </Command>
+                <Command>
+                  <ID>{B0FB9050-36E6-4020-B122-66E7B3058870}</ID>
+                  <Icon>cm_viewhistoryprev</Icon>
+                  <Command>cm_ViewHistoryPrev</Command>
+                </Command>
+                <Command>
+                  <ID>{DEF05979-FC77-48A1-A03D-6F2FB60E1C23}</ID>
+                  <Icon>cm_opendrivebyindex</Icon>
+                  <Command>cm_OpenDriveByIndex</Command>
+                </Command>
+                <Command>
+                  <ID>{9AEB8C0A-C78E-4DA3-9062-BE99D4D48D5B}</ID>
+                  <Icon>cm_focusswap</Icon>
+                  <Command>cm_FocusSwap</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{AFBB9103-91A9-4204-A132-4615D8DC750C}</ID>
+              <Icon>cm_helpindex</Icon>
+              <Hint>帮助</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{150952B0-7652-49E9-B363-314916B18F2C}</ID>
+                  <Icon>cm_helpindex</Icon>
+                  <Command>cm_HelpIndex</Command>
+                </Command>
+                <Command>
+                  <ID>{57CF85DB-E1EF-4F97-AB1A-84C60AEFAAA6}</ID>
+                  <Icon>cm_keyboard</Icon>
+                  <Command>cm_Keyboard</Command>
+                </Command>
+                <Command>
+                  <ID>{C59AD571-8272-40C0-923A-AF08C24DDD57}</ID>
+                  <Icon>cm_visithomepage</Icon>
+                  <Command>cm_VisitHomePage</Command>
+                </Command>
+                <Command>
+                  <ID>{4AEDC24D-AA7C-418C-9FE9-6AB03983FE89}</ID>
+                  <Icon>cm_about</Icon>
+                  <Command>cm_About</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{65FD1728-2E59-426E-85B8-B7BBB4760CFE}</ID>
+              <Icon>cm_horizontalfilepanels</Icon>
+              <Hint>窗口</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{2FBCD52E-ED77-4A8A-AD65-0CFE0D9B580D}</ID>
+                  <Icon>cm_horizontalfilepanels</Icon>
+                  <Command>cm_HorizontalFilePanels</Command>
+                </Command>
+                <Command>
+                  <ID>{A760F3C6-D3EC-404D-B42D-63D1CB837DFE}</ID>
+                  <Icon>cm_panelssplitterperpos</Icon>
+                  <Command>cm_PanelsSplitterPerPos</Command>
+                </Command>
+                <Command>
+                  <ID>{1A5C8C6B-2CBA-4E2D-BBC1-8F0798332FC2}</ID>
+                  <Icon>cm_showmainmenu</Icon>
+                  <Command>cm_ShowMainMenu</Command>
+                </Command>
+                <Command>
+                  <ID>{920DC355-9441-4DFC-A37F-51C944E5C266}</ID>
+                  <Icon>cm_showbuttonmenu</Icon>
+                  <Command>cm_ShowButtonMenu</Command>
+                </Command>
+                <Command>
+                  <ID>{109467BD-813C-4584-8CA6-4E65C85C6513}</ID>
+                  <Icon>cm_operationsviewer</Icon>
+                  <Command>cm_OperationsViewer</Command>
+                </Command>
+                <Command>
+                  <ID>{E5DC7957-D3A5-47AF-A6A2-841C2D4A29F4}</ID>
+                  <Icon>cm_openbar</Icon>
+                  <Command>cm_OpenBar</Command>
+                </Command>
+                <Command>
+                  <ID>{2C424978-A439-4FAF-8ADB-AFED4A98CA8E}</ID>
+                  <Icon>cm_minimize</Icon>
+                  <Command>cm_Minimize</Command>
+                </Command>
+                <Command>
+                  <ID>{01582578-8803-4A8E-AAA9-1E3FDD6CD202}</ID>
+                  <Icon>cm_exit</Icon>
+                  <Command>cm_Exit</Command>
+                </Command>
+                <Command>
+                  <ID>{91E4C70C-88B2-4779-B7F4-D4BD88C8DD1E}</ID>
+                  <Icon>cm_treeview</Icon>
+                  <Command>cm_TreeView</Command>
+                </Command>
+                <Command>
+                  <ID>{FCF6CE77-0064-46F6-8FE8-CBF1B18D52BA}</ID>
+                  <Icon>cm_focustreeview</Icon>
+                  <Command>cm_FocusTreeView</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{5E33E7BE-6C44-435F-A2B0-105F257A0B9A}</ID>
+              <Icon>cm_focuscmdline</Icon>
+              <Hint>命令行</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{EC212D77-452A-4ACC-835F-D5EAC9353826}</ID>
+                  <Icon>cm_focuscmdline</Icon>
+                  <Command>cm_FocusCmdLine</Command>
+                </Command>
+                <Command>
+                  <ID>{A59278BD-0A79-4CF5-8144-9E2003C65D4B}</ID>
+                  <Icon>cm_showcmdlinehistory</Icon>
+                  <Command>cm_ShowCmdLineHistory</Command>
+                </Command>
+                <Command>
+                  <ID>{041C1E62-E7D5-48CB-8FE0-3AD4797F03C9}</ID>
+                  <Icon>cm_cmdlinenext</Icon>
+                  <Command>cm_CmdLineNext</Command>
+                </Command>
+                <Command>
+                  <ID>{B1763E0C-3CFA-4CBA-9313-A5CBCF7D842A}</ID>
+                  <Icon>cm_cmdlineprev</Icon>
+                  <Command>cm_CmdLinePrev</Command>
+                </Command>
+                <Command>
+                  <ID>{116513D7-164C-4431-9C1F-405A29085A31}</ID>
+                  <Icon>cm_addpathtocmdline</Icon>
+                  <Command>cm_AddPathToCmdLine</Command>
+                </Command>
+                <Command>
+                  <ID>{78EDE9C5-488D-4147-ABE6-8A8F73EB2549}</ID>
+                  <Icon>cm_addfilenametocmdline</Icon>
+                  <Command>cm_AddFilenameToCmdLine</Command>
+                </Command>
+                <Command>
+                  <ID>{5801033A-3A14-4E31-99B9-A3230C170C01}</ID>
+                  <Icon>cm_addpathandfilenametocmdline</Icon>
+                  <Command>cm_AddPathAndFilenameToCmdLine</Command>
+                </Command>
+                <Command>
+                  <ID>{8F3B16EB-B465-41B9-8AA5-47D26195FF8D}</ID>
+                  <Icon>cm_togglefullscreenconsole</Icon>
+                  <Command>cm_ToggleFullscreenConsole</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{7DF4FF42-5387-429D-8D16-71A11A3D0491}</ID>
+              <Icon>cm_multirename</Icon>
+              <Hint>工具</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{4E28BB76-C419-4141-9F9E-ED3A224619BD}</ID>
+                  <Icon>cm_multirename</Icon>
+                  <Command>cm_MultiRename</Command>
+                </Command>
+                <Command>
+                  <ID>{D28755D7-A23A-4282-9021-543178571A23}</ID>
+                  <Icon>cm_search</Icon>
+                  <Command>cm_Search</Command>
+                </Command>
+                <Command>
+                  <ID>{06D9B924-A5CB-4004-921E-B8017B33A1BE}</ID>
+                  <Icon>cm_addnewsearch</Icon>
+                  <Command>cm_AddNewSearch</Command>
+                </Command>
+                <Command>
+                  <ID>{D3E69205-21A8-4C59-810C-BE2372026187}</ID>
+                  <Icon>cm_viewsearches</Icon>
+                  <Command>cm_ViewSearches</Command>
+                </Command>
+                <Command>
+                  <ID>{8D85CD61-353F-4FBC-BD29-4D5E69A5AF48}</ID>
+                  <Icon>cm_deletesearches</Icon>
+                  <Command>cm_DeleteSearches</Command>
+                </Command>
+                <Command>
+                  <ID>{59826D27-3BCC-453D-91AE-7C3258EDAECC}</ID>
+                  <Icon>cm_syncdirs</Icon>
+                  <Command>cm_SyncDirs</Command>
+                </Command>
+                <Command>
+                  <ID>{64349068-AE7A-4AED-ACD0-A7D7E3C04048}</ID>
+                  <Icon>cm_comparecontents</Icon>
+                  <Command>cm_CompareContents</Command>
+                </Command>
+                <Command>
+                  <ID>{9A8CEDA5-C29C-4822-A59B-37B1A043ED0B}</ID>
+                  <Icon>cm_debugshowcommandparameters</Icon>
+                  <Command>cm_DebugShowCommandParameters</Command>
+                </Command>
+                <Command>
+                  <ID>{7EE89A7E-C565-473B-B27C-A48A5789E049}</ID>
+                  <Icon>cm_doanycmcommand</Icon>
+                  <Command>cm_DoAnyCmCommand</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{5296B04F-F288-4D85-9647-1C159C6E5EC3}</ID>
+              <Icon>cm_refresh</Icon>
+              <Hint>视图</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{AEEED28C-320E-4AB0-95D8-31707CC3C470}</ID>
+                  <Icon>cm_refresh</Icon>
+                  <Command>cm_Refresh</Command>
+                </Command>
+                <Command>
+                  <ID>{E3D4054D-BBDB-4653-ADC6-932B67EE5E30}</ID>
+                  <Icon>cm_showsysfiles</Icon>
+                  <Command>cm_ShowSysFiles</Command>
+                </Command>
+                <Command>
+                  <ID>{453B19B5-E37A-4D74-B4CD-3F37DEC54B66}</ID>
+                  <Icon>cm_switchignorelist</Icon>
+                  <Command>cm_SwitchIgnoreList</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{25ABA224-E2BE-4777-A8A0-630D3CB5C4EE}</ID>
+              <Icon>cm_newtab</Icon>
+              <Hint>标签</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{8ADA5C16-9AEE-4781-B92B-7DBF9A12B01E}</ID>
+                  <Icon>cm_newtab</Icon>
+                  <Command>cm_NewTab</Command>
+                </Command>
+                <Command>
+                  <ID>{9E925465-E7B1-4DA8-AADE-EA89EA856BD5}</ID>
+                  <Icon>cm_opendirinnewtab</Icon>
+                  <Command>cm_OpenDirInNewTab</Command>
+                </Command>
+                <Command>
+                  <ID>{06166314-F4D1-4D3F-BE00-3AF925A58034}</ID>
+                  <Icon>cm_nexttab</Icon>
+                  <Command>cm_NextTab</Command>
+                </Command>
+                <Command>
+                  <ID>{33B8C2E5-4CAB-41CA-9D72-3BF0870E3038}</ID>
+                  <Icon>cm_prevtab</Icon>
+                  <Command>cm_PrevTab</Command>
+                </Command>
+                <Command>
+                  <ID>{40B73B94-EB04-4A5F-8453-AD7B4B5443E0}</ID>
+                  <Icon>cm_renametab</Icon>
+                  <Command>cm_RenameTab</Command>
+                </Command>
+                <Command>
+                  <ID>{F5855B65-A3E3-4D4A-99ED-78E9957CE8C1}</ID>
+                  <Icon>cm_closetab</Icon>
+                  <Command>cm_CloseTab</Command>
+                </Command>
+                <Command>
+                  <ID>{23E34399-DF3D-4739-96BD-D84147051466}</ID>
+                  <Icon>cm_closealltabs</Icon>
+                  <Command>cm_CloseAllTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{238E118D-F0C5-486E-B317-C07586583DAF}</ID>
+                  <Icon>cm_closeduplicatetabs</Icon>
+                  <Command>cm_CloseDuplicateTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{586BB86C-2260-4381-BB3B-D4DEEA814667}</ID>
+                  <Icon>cm_copyalltabstoopposite</Icon>
+                  <Command>cm_CopyAllTabsToOpposite</Command>
+                </Command>
+                <Command>
+                  <ID>{6E9A4E16-5595-40C9-9C20-D5A564087CA7}</ID>
+                  <Icon>cm_loadtabs</Icon>
+                  <Command>cm_LoadTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{E14FA883-F7D4-4244-A59A-ADC8C474AE9F}</ID>
+                  <Icon>cm_savetabs</Icon>
+                  <Command>cm_SaveTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{9CE23771-735B-4BA1-AE01-6DFD6E0A561D}</ID>
+                  <Icon>cm_settaboptionnormal</Icon>
+                  <Command>cm_SetTabOptionNormal</Command>
+                </Command>
+                <Command>
+                  <ID>{A7344220-B65B-471C-AA73-D83113EF17ED}</ID>
+                  <Icon>cm_settaboptionpathlocked</Icon>
+                  <Command>cm_SetTabOptionPathLocked</Command>
+                </Command>
+                <Command>
+                  <ID>{FF69AE18-CB02-4B17-AC6B-1AFA44BE7F1A}</ID>
+                  <Icon>cm_settaboptionpathresets</Icon>
+                  <Command>cm_SetTabOptionPathResets</Command>
+                </Command>
+                <Command>
+                  <ID>{3D6C254A-9C74-4F52-9F4B-6C1057EBE1AB}</ID>
+                  <Icon>cm_settaboptiondirsinnewtab</Icon>
+                  <Command>cm_SetTabOptionDirsInNewTab</Command>
+                </Command>
+                <Command>
+                  <ID>{AFBB551B-B15C-488B-89EB-09A31848F0F9}</ID>
+                  <Icon>cm_setalltabsoptionnormal</Icon>
+                  <Command>cm_SetAllTabsOptionNormal</Command>
+                </Command>
+                <Command>
+                  <ID>{B60EE41B-A272-4322-92DA-020E2D89F5F1}</ID>
+                  <Icon>cm_setalltabsoptionpathlocked</Icon>
+                  <Command>cm_SetAllTabsOptionPathLocked</Command>
+                </Command>
+                <Command>
+                  <ID>{07BA5FD2-DAA8-4864-8C39-E3B0DD16862C}</ID>
+                  <Icon>cm_setalltabsoptionpathresets</Icon>
+                  <Command>cm_SetAllTabsOptionPathResets</Command>
+                </Command>
+                <Command>
+                  <ID>{BC007394-86CA-48D0-8685-FCB6A61F21CA}</ID>
+                  <Icon>cm_setalltabsoptiondirsinnewtab</Icon>
+                  <Command>cm_SetAllTabsOptionDirsInNewTab</Command>
+                </Command>
+                <Command>
+                  <ID>{3CE7F289-F339-4422-8D3B-42E11ABECC4C}</ID>
+                  <Icon>cm_loadfavoritetabs</Icon>
+                  <Command>cm_LoadFavoriteTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{332A27A9-0B87-43D5-B28E-4DDE6D026B25}</ID>
+                  <Icon>cm_savefavoritetabs</Icon>
+                  <Command>cm_SaveFavoriteTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{AFDB89B9-BC64-4313-B6D9-588289B5F631}</ID>
+                  <Icon>cm_reloadfavoritetabs</Icon>
+                  <Command>cm_ReloadFavoriteTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{78C76B80-8DEB-4BB3-BA14-9139F50B69BC}</ID>
+                  <Icon>cm_resavefavoritetabs</Icon>
+                  <Command>cm_ResaveFavoriteTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{342E3C76-C6A2-4154-B138-A81D391EC86A}</ID>
+                  <Icon>cm_previousfavoritetabs</Icon>
+                  <Command>cm_PreviousFavoriteTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{CE80F38A-4583-41B7-9F5F-76744575B86D}</ID>
+                  <Icon>cm_nextfavoritetabs</Icon>
+                  <Command>cm_NextFavoriteTabs</Command>
+                </Command>
+                <Command>
+                  <ID>{55C5428B-23E6-4D2F-86EF-F84D0483AF12}</ID>
+                  <Icon>cm_activatetabbyindex</Icon>
+                  <Command>cm_ActivateTabByIndex</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+            <Menu>
+              <ID>{5916DD48-0B7D-43B1-9ED7-0CD4B8017331}</ID>
+              <Icon>cm_viewlogfile</Icon>
+              <Hint>日志</Hint>
+              <MenuItems>
+                <Command>
+                  <ID>{9911CE22-BD39-47F1-9A63-D3FCF9509E1C}</ID>
+                  <Icon>cm_viewlogfile</Icon>
+                  <Command>cm_ViewLogFile</Command>
+                </Command>
+                <Command>
+                  <ID>{4383E848-CCC2-4D41-BDC9-FA63E3349632}</ID>
+                  <Icon>cm_clearlogfile</Icon>
+                  <Command>cm_ClearLogFile</Command>
+                </Command>
+                <Command>
+                  <ID>{58463AC8-2652-4B62-9FD2-F979CD4D3438}</ID>
+                  <Icon>cm_clearlogwindow</Icon>
+                  <Command>cm_ClearLogWindow</Command>
+                </Command>
+              </MenuItems>
+            </Menu>
+          </MenuItems>
+        </Menu>
       </Row>
     </MainToolbar>
     <MiddleToolbar>
@@ -169,11 +1347,19 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
+<<<<<<< HEAD
       <Left>388</Left>
       <Top>0</Top>
       <Width>862</Width>
       <Height>849</Height>
       <PixelsPerInch>96</PixelsPerInch>
+=======
+      <Left>562</Left>
+      <Top>83</Top>
+      <Width>1578</Width>
+      <Height>1282</Height>
+      <PixelsPerInch>192</PixelsPerInch>
+>>>>>>> main
       <Maximized>False</Maximized>
       <Splitter>50</Splitter>
     </Position>
@@ -189,11 +1375,11 @@
     <GoToRoot>True</GoToRoot>
     <ShowCurDirTitleBar>True</ShowCurDirTitleBar>
     <ActiveRight>False</ActiveRight>
-    <RunInTerminalStayOpenCmd>cmd.exe</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenCmd>powershell.exe</RunInTerminalStayOpenCmd>
     <RunInTerminalStayOpenParams>/K {command}</RunInTerminalStayOpenParams>
-    <RunInTerminalCloseCmd>cmd.exe</RunInTerminalCloseCmd>
+    <RunInTerminalCloseCmd>powershell.exe</RunInTerminalCloseCmd>
     <RunInTerminalCloseParams>/C {command}</RunInTerminalCloseParams>
-    <JustRunTerminal>cmd.exe</JustRunTerminal>
+    <JustRunTerminal>powershell.exe</JustRunTerminal>
     <JustRunTermParams/>
     <OnlyOneAppInstance>True</OnlyOneAppInstance>
     <LynxLike>True</LynxLike>
@@ -227,7 +1413,7 @@
     <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
     <DateTimeFormat>yyyy/M/d hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
-    <ExtendCellWidth>False</ExtendCellWidth>
+    <ExtendCellWidth>True</ExtendCellWidth>
     <ShowSystemFiles>False</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
@@ -392,7 +1578,7 @@
       <ButtonHeight>28</ButtonHeight>
       <IconSize>18</IconSize>
       <ShowCaptions>False</ShowCaptions>
-      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+      <ReportErrorWithCommands>True</ReportErrorWithCommands>
       <FilenameStyle>0</FilenameStyle>
       <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
       <PathModifierElements>0</PathModifierElements>
@@ -459,9 +1645,9 @@
   <Keyboard>
     <Typing>
       <Actions>
-        <NoModifier>2</NoModifier>
+        <NoModifier>3</NoModifier>
         <Alt>0</Alt>
-        <CtrlAlt>3</CtrlAlt>
+        <CtrlAlt>2</CtrlAlt>
       </Actions>
     </Typing>
   </Keyboard>
@@ -477,7 +1663,7 @@
     <WipePassNumber>1</WipePassNumber>
     <DropReadOnlyFlag>False</DropReadOnlyFlag>
     <ProcessComments>False</ProcessComments>
-    <RenameSelOnlyName>False</RenameSelOnlyName>
+    <RenameSelOnlyName>True</RenameSelOnlyName>
     <ShowCopyTabSelectPanel>False</ShowCopyTabSelectPanel>
     <UseTrash>True</UseTrash>
     <SkipFileOpError>False</SkipFileOpError>
@@ -664,9 +1850,10 @@
                   <Path Filename="">\\10.0.0.10\HomeNas\</Path>
                 </Paths>
               </Entry>
-              <Entry>
+              <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
+<<<<<<< HEAD
                   <Path Filename="NVIDIA Corporation">c:\</Path>
                   <Path Filename="">C:\Users\ChenJ\Desktop\</Path>
                 </Paths>
@@ -675,6 +1862,58 @@
                 <FileSource Type="FileSystem"/>
                 <Paths>
                   <Path Filename="..">C:\Users\ChenJ\AppData\Roaming\doublecmd\</Path>
+=======
+                  <Path Filename="DAZ 3D">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Studio">C:\Users\virgi\Documents\DAZ 3D\</Path>
+                  <Path Filename="Render Library">C:\Users\virgi\Documents\DAZ 3D\Studio\</Path>
+                  <Path Filename="300_png_icon.png">C:\Users\virgi\Documents\DAZ 3D\Studio\Render Library\</Path>
+                  <Path Filename="Render Library">C:\Users\virgi\Documents\DAZ 3D\Studio\</Path>
+                  <Path Filename="300_png_icon.png">C:\Users\virgi\Documents\DAZ 3D\Studio\Render Library\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="asdasd">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="Formats.dll">C:\Users\virgi\Desktop\asdasd\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="wagner-api-a-7cfmp (2).txt">C:\Users\virgi\Downloads\logs\</Path>
+                  <Path Filename="Documents">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="留学生落户申请表（0806更）.docx">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="留学生落户申请表（0806更）.docx">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="留学生材料清单及样张（10.11更）.zip">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="EAS配置优化-核对逻辑.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="files">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="报销与付款分录逻辑和记账流程.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="images">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="2012">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\2012\</Path>
+                  <Path Filename="2012">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\2012\</Path>
+                  <Path Filename="2104">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\</Path>
+                  <Path Filename="02847fe6b7ca19d5d05ce227e3654bec919b210at">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\2104\</Path>
+                  <Path Filename="doublecmd.err">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="logs">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wagner-task-a-77fcv (1).txt">C:\Users\virgi\Downloads\logs\</Path>
+                  <Path Filename="export.csv">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts\</Path>
+                  <Path Filename="ImplicitAppShortcuts">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\</Path>
+                  <Path Filename="Quick Launch">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\</Path>
+                  <Path Filename="Internet Explorer">C:\Users\virgi\AppData\Roaming\Microsoft\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="Roaming">C:\Users\virgi\AppData\</Path>
+                  <Path Filename="..">C:\Users\virgi\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+>>>>>>> main
                 </Paths>
               </Entry>
             </History>
@@ -692,9 +1931,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="ICLView">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\</Path>
-                  <Path Filename="Readme.txt">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\ICLView\</Path>
-                  <Path Filename="Imagine">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\</Path>
                   <Path Filename="使用说明.txt">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\Imagine\</Path>
                   <Path Filename="..">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
                   <Path Filename="doublecmd">C:\Users\virgi\AppData\Roaming\</Path>
@@ -707,12 +1943,50 @@
                   <Path Filename="Ubuntu">C:\Users\virgi\Documents\Virtual Machines\</Path>
                   <Path Filename="mksSandbox-1.log">C:\Users\virgi\Documents\Virtual Machines\Ubuntu\</Path>
                   <Path Filename="Ubuntu">C:\Users\virgi\Documents\Virtual Machines\</Path>
+<<<<<<< HEAD
                   <Path Filename="Virtual Machines">C:\Users\virgi\Documents\</Path>
                   <Path Filename="..">C:\Users\</Path>
                   <Path Filename="Download">d:\</Path>
                   <Path Filename="plugins">C:\Users\ChenJ\Software\doublecmd\</Path>
                   <Path Filename="wlx">C:\Users\ChenJ\Software\doublecmd\plugins\</Path>
                   <Path Filename="sLister">C:\Users\ChenJ\Software\doublecmd\plugins\wlx\</Path>
+=======
+                  <Path Filename="pdd-code">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\</Path>
+                  <Path Filename="Programs">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\Programs\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wlx_imagine_x64.zip">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="Imagine">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="Plugin">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\Plugin\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\</Path>
+                  <Path Filename="irfanview">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="IrfanView64">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\irfanview\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\irfanview\IrfanView64\</Path>
+                  <Path Filename="IrfanView64">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\irfanview\</Path>
+                  <Path Filename="uLister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="Redist">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\uLister\</Path>
+                  <Path Filename="Wvcore.dll">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\uLister\Redist\</Path>
+                  <Path Filename="Redist">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\uLister\</Path>
+                  <Path Filename="MMedia">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="Readme.txt">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\MMedia\</Path>
+                  <Path Filename="wmp">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\wmp\</Path>
+                  <Path Filename="sLister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="SumatraPDF.exe">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\sLister\</Path>
+                  <Path Filename="sLister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="sLister.ini">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\sLister\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070 (ED2000.COM).iso">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="Documents">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="计算机网络-自顶向下方法第七版.pdf">C:\Users\virgi\Downloads\Documents\</Path>
+                  <Path Filename="multiarc.ini">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="分录优化10月-10月排期@1006.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="hive2sql表结构.xlsx">C:\Users\virgi\Desktop\</Path>
+>>>>>>> main
                 </Paths>
               </Entry>
             </History>
@@ -724,8 +1998,8 @@
       </Right>
     </OpenedTabs>
   </Tabs>
-  <Log Enabled="False" Count="0" LogFileWithDateInName="False">
-    <FileName>%DC_CONFIG_PATH%\doublecmd.log</FileName>
+  <Log Enabled="True" Count="0" LogFileWithDateInName="False">
+    <FileName>%COMMANDER_PATH%\doublecmd.log</FileName>
     <Options>1023</Options>
   </Log>
   <History>
@@ -819,7 +2093,7 @@
     <NumberOfColumns>1</NumberOfColumns>
     <TabSpaces>8</TabSpaces>
     <MaxTextWidth>1024</MaxTextWidth>
-    <ViewerMode>1</ViewerMode>
+    <ViewerMode>4</ViewerMode>
     <PrintMargins>200|200|200|200</PrintMargins>
     <ShowCaret>False</ShowCaret>
     <PaintColor>255</PaintColor>
@@ -883,8 +2157,8 @@
     <UseTVMDirectoryHotlistFDC>False</UseTVMDirectoryHotlistFDC>
     <UseTVMFavoriteTabsFMC>False</UseTVMFavoriteTabsFMC>
     <UseTVMFavoriteTabsFDC>False</UseTVMFavoriteTabsFDC>
-    <UseTVMDirHistory>False</UseTVMDirHistory>
-    <UseTVMViewHistory>False</UseTVMViewHistory>
+    <UseTVMDirHistory>True</UseTVMDirHistory>
+    <UseTVMViewHistory>True</UseTVMViewHistory>
     <UseTVMCommandLineHistory>False</UseTVMCommandLineHistory>
     <TreeViewMenuShortcutExit>True</TreeViewMenuShortcutExit>
     <TreeViewMenuSingleClickExit>True</TreeViewMenuSingleClickExit>
@@ -926,9 +2200,9 @@
     </Context06>
     <TreeViewMenuUseKeyboardShortcut>True</TreeViewMenuUseKeyboardShortcut>
     <BackgroundColor>-2147483617</BackgroundColor>
-    <ShortcutColor>255</ShortcutColor>
+    <ShortcutColor>15780518</ShortcutColor>
     <NormalTextColor>-2147483640</NormalTextColor>
-    <SecondaryTextColor>-2147483642</SecondaryTextColor>
+    <SecondaryTextColor>8421504</SecondaryTextColor>
     <FoundTextColor>-2147483635</FoundTextColor>
     <UnselectableTextColor>-2147483631</UnselectableTextColor>
     <CursorColor>-2147483635</CursorColor>
@@ -1152,11 +2426,11 @@
           <TextColor>-2147483640</TextColor>
           <Background>-2147483643</Background>
           <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
+          <MarkColor>6053119</MarkColor>
+          <CursorColor>-2147483619</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
+          <InactiveMarkColor>6053119</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -1175,11 +2449,11 @@
           <TextColor>-2147483640</TextColor>
           <Background>-2147483643</Background>
           <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
+          <MarkColor>6053119</MarkColor>
+          <CursorColor>-2147483619</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
+          <InactiveMarkColor>6053119</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -1198,11 +2472,11 @@
           <TextColor>-2147483640</TextColor>
           <Background>-2147483643</Background>
           <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
+          <MarkColor>6053119</MarkColor>
+          <CursorColor>-2147483619</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
+          <InactiveMarkColor>6053119</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -1221,11 +2495,11 @@
           <TextColor>-2147483640</TextColor>
           <Background>-2147483643</Background>
           <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
+          <MarkColor>6053119</MarkColor>
+          <CursorColor>-2147483619</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
+          <InactiveMarkColor>6053119</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -1244,11 +2518,11 @@
           <TextColor>-2147483640</TextColor>
           <Background>-2147483643</Background>
           <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
+          <MarkColor>6053119</MarkColor>
+          <CursorColor>-2147483619</CursorColor>
           <CursorText>-2147483634</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
+          <InactiveMarkColor>6053119</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -1290,7 +2564,11 @@
         <Column>
           <Title>EXT</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
+<<<<<<< HEAD
           <Width>50</Width>
+=======
+          <Width>103</Width>
+>>>>>>> main
           <Align>0</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>
@@ -1562,12 +2840,8 @@
         <Path>%COMMANDER_PATH%\plugins\wlx\wmp\wmp.wlx</Path>
         <DetectString>(EXT="WAV")|(EXT="MP3")|(EXT="MP4")|(EXT="AVI")</DetectString>
       </WlxPlugin>
-      <WlxPlugin Enabled="False">
-        <Name>Imagine</Name>
-        <Path>%COMMANDER_PATH%\plugins\wlx\Imagine\Imagine.wlx64</Path>
-        <DetectString>MULTIMEDIA</DetectString>
-      </WlxPlugin>
       <WlxPlugin Enabled="True">
+<<<<<<< HEAD
         <Name>cudalister</Name>
         <Path>%COMMANDER_PATH%\plugins\wlx\cudalister\cudalister.wlx64</Path>
         <DetectString>MULTIMEDIA</DetectString>
@@ -1576,11 +2850,21 @@
         <Name>uLister</Name>
         <Path>%COMMANDER_PATH%\plugins\wlx\uLister\uLister.wlx64</Path>
         <DetectString>(EXT="DOCX")|(EXT="XLSX")|(EXT="PPTX")</DetectString>
+=======
+        <Name>PhotoViewer</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\photoviewer\PhotoViewer.wlx64</Path>
+        <DetectString>MULTIMEDIA &amp; ext="BMP"|ext="JPG"|ext="JPE"|ext="JPEG"|ext="JP2"|ext="J2K"|ext="PNG"|ext="GIF"|ext="TIF"|ext="TIFF"|ext="PSD"|ext="TGA"|ext="PCX"|ext="PCD"|ext="WMP"|ext="WMF"|ext="EMF"|ext="AAI"|ext="JXR"|ext="WDP"|ext="DICOM"|ext="DCM"|ext="WEBP"|ext="PBM"|ext="PPM"|ext="HEIC"|ext="DNG"|ext="RAW"|ext="CRW"|ext="CR2"|ext="NEF"|ext="ORF"|ext="ARW"|ext="DCR"|ext="MRW"|ext="NRW"|ext="PEF"|ext="RAF"|ext="SRF"|ext="X3F"|ext="MEF"|ext="SRW"|ext="3FR"|ext="MDC"|ext="RW2"|ext="ERF"|ext="MOS"|ext="KDC"|ext="SR2"|ext="CR3"</DetectString>
+>>>>>>> main
       </WlxPlugin>
       <WlxPlugin Enabled="True">
         <Name>sLister</Name>
         <Path>%COMMANDER_PATH%\plugins\wlx\sLister\sLister.wlx64</Path>
         <DetectString>MULTIMEDIA&amp; (EXT="PDF" | EXT="DJVU" | EXT="DJV"| EXT="XPS" | EXT="CBZ" | EXT="CBR" )</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>uLister</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\uLister\uLister.wlx64</Path>
+        <DetectString/>
       </WlxPlugin>
     </WlxPlugins>
     <TweakPluginWidth0>0</TweakPluginWidth0>
