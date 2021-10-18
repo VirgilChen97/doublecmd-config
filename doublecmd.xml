@@ -106,7 +106,7 @@
           <Icon>%COMMANDER_PATH%\pixmaps\dctheme\32x32\apps\utilities-terminal.png</Icon>
           <Hint>在终端打开活动面板路径</Hint>
           <Command>wt</Command>
-          <Params>-d %d</Params>
+          <Params>-d %Ds</Params>
         </Program>
         <Command>
           <ID>{3DD52D46-72D9-45B3-83D0-F3F3531D0DC9}</ID>
@@ -169,10 +169,10 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>223</Left>
+      <Left>388</Left>
       <Top>0</Top>
-      <Width>836</Width>
-      <Height>712</Height>
+      <Width>862</Width>
+      <Height>849</Height>
       <PixelsPerInch>96</PixelsPerInch>
       <Maximized>False</Maximized>
       <Splitter>50</Splitter>
@@ -389,7 +389,7 @@
     <MainMenu>True</MainMenu>
     <ButtonBar Enabled="True">
       <FlatIcons>True</FlatIcons>
-      <ButtonHeight>29</ButtonHeight>
+      <ButtonHeight>28</ButtonHeight>
       <IconSize>18</IconSize>
       <ShowCaptions>False</ShowCaptions>
       <ReportErrorWithCommands>False</ReportErrorWithCommands>
@@ -534,13 +534,13 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
     <OpenedTabs>
       <Left>
-        <ActiveTab>1</ActiveTab>
+        <ActiveTab>0</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
               <Sorting>
-                <Direction>2</Direction>
-                <Function>2</Function>
+                <Direction>1</Direction>
+                <Function>12</Function>
               </Sorting>
             </Sortings>
             <History>
@@ -605,7 +605,7 @@
                   <Path Filename="">\\share.pin.com\</Path>
                 </Paths>
               </Entry>
-              <Entry Active="True">
+              <Entry>
                 <FileSource Type="FileSystem"/>
                 <Paths>
                   <Path Filename="税率分录汇总.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
@@ -653,125 +653,33 @@
                   <Path Filename="..">C:\Users\</Path>
                 </Paths>
               </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>2</Direction>
-                <Function>2</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry>
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="报销与付款分录逻辑和记账流程.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
-                  <Path Filename="work">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
-                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\work\</Path>
-                  <Path Filename="files">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
-                  <Path Filename="12PIgEL7NnoX">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\</Path>
-                  <Path Filename="com.xunmeng.knock">C:\Users\virgi\AppData\Roaming\</Path>
-                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
-                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
-                  <Path Filename="Software">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
-                  <Path Filename="doublecmd.zdli">C:\Users\virgi\Documents\Software\doublecmd\</Path>
-                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
-                  <Path Filename="libwinpthread-1.dll">C:\Users\virgi\Documents\Software\doublecmd\</Path>
-                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
-                  <Path Filename="ShadowsocksR-dotnet2.0.exe.sig">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
-                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
-                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
-                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
-                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
-                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
-                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
-                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
-                  <Path Filename="wcx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wcx\</Path>
-                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
-                  <Path Filename="preview">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
-                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
-                  <Path Filename="..">C:\Users\virgi\Desktop\</Path>
-                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
-                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
-                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="Downloads">C:\Users\virgi\</Path>
-                  <Path Filename="wagner-task-a-77fcv (1).txt">C:\Users\virgi\Downloads\</Path>
-                  <Path Filename="Downloads">C:\Users\virgi\</Path>
-                  <Path Filename="分录汇总逻辑.xlsx">C:\Users\virgi\Downloads\</Path>
-                  <Path Filename="Users">C:\</Path>
-                  <Path Filename="..">C:\Users\</Path>
-                  <Path Filename="Program Files (x86)">C:\</Path>
-                  <Path Filename="..">C:\Program Files (x86)\</Path>
-                  <Path Filename="Program Files (x86)">C:\</Path>
-                  <Path Filename="FreeCommander XE">C:\Program Files (x86)\</Path>
-                  <Path Filename="">C:\Program Files (x86)\FreeCommander XE\</Path>
-                </Paths>
-              </Entry>
               <Entry>
                 <FileSource Type="TWinNetFileSource"/>
                 <Paths>
-                  <Path Filename="">\\share.pin.com\</Path>
+                  <Path Filename="Shows">\\10.0.0.10\HomeNas\</Path>
+                  <Path Filename="武林外传.(2006)">\\10.0.0.10\HomeNas\Shows\</Path>
+                  <Path Filename="Season.1">\\10.0.0.10\HomeNas\Shows\武林外传.(2006)\</Path>
+                  <Path Filename="武林外传.S01E33.m4v">\\10.0.0.10\HomeNas\Shows\武林外传.(2006)\Season.1\</Path>
+                  <Path Filename="Season.1">\\10.0.0.10\HomeNas\Shows\武林外传.(2006)\</Path>
+                  <Path Filename="">\\10.0.0.10\HomeNas\</Path>
                 </Paths>
               </Entry>
               <Entry>
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="pixmaps">C:\Users\virgi\Documents\Software\doublecmd\</Path>
-                  <Path Filename="dctheme">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\</Path>
-                  <Path Filename="128x128">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
-                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\actions\</Path>
-                  <Path Filename="mimetypes">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\mimetypes\</Path>
-                  <Path Filename="mimetypes">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
-                  <Path Filename="32x32">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
-                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\</Path>
-                  <Path Filename="cm_benchmark.png">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\actions\</Path>
-                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\</Path>
-                  <Path Filename="scalable">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
-                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\actions\</Path>
-                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\actions\</Path>
-                  <Path Filename="devices">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
-                  <Path Filename="scalable">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
-                  <Path Filename="mainicon">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\</Path>
-                  <Path Filename="alt">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\alt\</Path>
-                  <Path Filename="papirus">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\papirus\</Path>
-                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
-                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
-                  <Path Filename="cudalister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
-                  <Path Filename="themes">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\themes\</Path>
-                  <Path Filename="readme">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\</Path>
-                  <Path Filename="history.txt">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\readme\</Path>
-                  <Path Filename="history.xml">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
-                  <Path Filename="doublecmd">C:\Users\virgi\AppData\Roaming\</Path>
-                  <Path Filename="multiarc.ini">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
-                  <Path Filename="..">C:\Users\</Path>
+                  <Path Filename="NVIDIA Corporation">c:\</Path>
+                  <Path Filename="">C:\Users\ChenJ\Desktop\</Path>
+                </Paths>
+              </Entry>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">C:\Users\ChenJ\AppData\Roaming\doublecmd\</Path>
                 </Paths>
               </Entry>
             </History>
             <ColumnsView>
-              <ColumnsSet>默认</ColumnsSet>
+              <ColumnsSet>Default</ColumnsSet>
             </ColumnsView>
           </FileView>
         </Tab>
@@ -801,6 +709,10 @@
                   <Path Filename="Ubuntu">C:\Users\virgi\Documents\Virtual Machines\</Path>
                   <Path Filename="Virtual Machines">C:\Users\virgi\Documents\</Path>
                   <Path Filename="..">C:\Users\</Path>
+                  <Path Filename="Download">d:\</Path>
+                  <Path Filename="plugins">C:\Users\ChenJ\Software\doublecmd\</Path>
+                  <Path Filename="wlx">C:\Users\ChenJ\Software\doublecmd\plugins\</Path>
+                  <Path Filename="sLister">C:\Users\ChenJ\Software\doublecmd\plugins\wlx\</Path>
                 </Paths>
               </Entry>
             </History>
@@ -886,7 +798,7 @@
     <IgnoreListFile>%DC_CONFIG_PATH%\ignorelist.txt</IgnoreListFile>
   </IgnoreList>
   <DirectoryHotList>
-    <HotDir Name="Double Commander Config" Path="C:\Users\virgi\AppData\Roaming\doublecmd"/>
+    <HotDir Name="Double Commander Config" Path="C:\Users\ChenJ\AppData\Roaming\doublecmd"/>
     <HotDir Name="HomeNas (&amp;H)" Path="\\10.0.0.10\HomeNas"/>
     <HotDir Name="Desktop (&amp;D)" Path="C:\Users\ChenJ\Desktop"/>
     <HotDir Name="Documents (&amp;O)" Path="C:\Users\ChenJ\Documents"/>
@@ -1663,7 +1575,7 @@
       <WlxPlugin Enabled="True">
         <Name>uLister</Name>
         <Path>%COMMANDER_PATH%\plugins\wlx\uLister\uLister.wlx64</Path>
-        <DetectString>(EXT!="PNG")|(EXT!="JPG")|(EXT!="JPEG")</DetectString>
+        <DetectString>(EXT="DOCX")|(EXT="XLSX")|(EXT="PPTX")</DetectString>
       </WlxPlugin>
       <WlxPlugin Enabled="True">
         <Name>sLister</Name>
