@@ -337,6 +337,12 @@
         <Command>cm_MakeDir</Command>
       </Hotkey>
       <Hotkey>
+        <Shortcut>Ctrl+Shift+T</Shortcut>
+        <Command>cm_ExecuteToolbarItem</Command>
+        <Param>ToolBarID=TfrmOptionsToolbar</Param>
+        <Param>ToolItemID={CAA83F78-C648-4DEF-B226-699828342BE9}</Param>
+      </Hotkey>
+      <Hotkey>
         <Shortcut>Del</Shortcut>
         <Command>cm_Delete</Command>
         <Control>Files Panel</Control>

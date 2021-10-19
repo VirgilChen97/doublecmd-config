@@ -1347,10 +1347,10 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>562</Left>
-      <Top>83</Top>
-      <Width>1578</Width>
-      <Height>1282</Height>
+      <Left>265</Left>
+      <Top>38</Top>
+      <Width>1726</Width>
+      <Height>1546</Height>
       <PixelsPerInch>192</PixelsPerInch>
       <Maximized>False</Maximized>
       <Splitter>50</Splitter>
@@ -1365,7 +1365,7 @@
   </Language>
   <Behaviours>
     <GoToRoot>True</GoToRoot>
-    <ShowCurDirTitleBar>True</ShowCurDirTitleBar>
+    <ShowCurDirTitleBar>False</ShowCurDirTitleBar>
     <ActiveRight>False</ActiveRight>
     <RunInTerminalStayOpenCmd>powershell.exe</RunInTerminalStayOpenCmd>
     <RunInTerminalStayOpenParams>/K {command}</RunInTerminalStayOpenParams>
@@ -1786,61 +1786,61 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="com.xunmeng.knock">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="wagner-api-a-7cfmp (2).txt">C:\Users\virgi\Downloads\logs\</Path>
+                  <Path Filename="Documents">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="留学生落户申请表（0806更）.docx">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="留学生落户申请表（0806更）.docx">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="留学生材料清单及样张（10.11更）.zip">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="EAS配置优化-核对逻辑.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="files">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="报销与付款分录逻辑和记账流程.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="images">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="2012">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\2012\</Path>
+                  <Path Filename="2012">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\2012\</Path>
+                  <Path Filename="2104">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\</Path>
+                  <Path Filename="02847fe6b7ca19d5d05ce227e3654bec919b210at">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\2104\</Path>
+                  <Path Filename="doublecmd.err">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="logs">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wagner-task-a-77fcv (1).txt">C:\Users\virgi\Downloads\logs\</Path>
+                  <Path Filename="export.csv">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts\</Path>
+                  <Path Filename="ImplicitAppShortcuts">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\</Path>
+                  <Path Filename="Quick Launch">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\</Path>
+                  <Path Filename="Internet Explorer">C:\Users\virgi\AppData\Roaming\Microsoft\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\</Path>
                   <Path Filename="Roaming">C:\Users\virgi\AppData\</Path>
-                  <Path Filename="Desktop">C:\Users\virgi\</Path>
-                  <Path Filename="最后编辑时间 9月.txt">C:\Users\virgi\Desktop\</Path>
-                  <Path Filename="pixmaps">C:\Users\virgi\Documents\Software\doublecmd\</Path>
-                  <Path Filename="dctheme">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\</Path>
-                  <Path Filename="128x128">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
-                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\actions\</Path>
-                  <Path Filename="mimetypes">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\mimetypes\</Path>
-                  <Path Filename="mimetypes">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\128x128\</Path>
-                  <Path Filename="32x32">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
-                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\</Path>
-                  <Path Filename="cm_benchmark.png">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\actions\</Path>
-                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\32x32\</Path>
-                  <Path Filename="scalable">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
-                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\actions\</Path>
-                  <Path Filename="actions">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\actions\</Path>
-                  <Path Filename="devices">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\scalable\</Path>
-                  <Path Filename="scalable">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\dctheme\</Path>
-                  <Path Filename="mainicon">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\</Path>
-                  <Path Filename="alt">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\alt\</Path>
-                  <Path Filename="papirus">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\pixmaps\mainicon\papirus\</Path>
-                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
-                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
-                  <Path Filename="cudalister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
-                  <Path Filename="themes">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\themes\</Path>
-                  <Path Filename="readme">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\</Path>
-                  <Path Filename="history.txt">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\cudalister\readme\</Path>
-                  <Path Filename="history.xml">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
-                  <Path Filename="doublecmd">C:\Users\virgi\AppData\Roaming\</Path>
-                  <Path Filename="shortcuts.scf">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
-                  <Path Filename="..">C:\Users\virgi\Desktop\</Path>
-                  <Path Filename="IDMGCExt.crx">C:\Program Files (x86)\Internet Download Manager\</Path>
-                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
-                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
-                  <Path Filename="Imagine">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\</Path>
-                  <Path Filename="DAZ 3D">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="Studio">C:\Users\virgi\Documents\DAZ 3D\</Path>
-                  <Path Filename="Render Library">C:\Users\virgi\Documents\DAZ 3D\Studio\</Path>
-                  <Path Filename="300_png_icon.png">C:\Users\virgi\Documents\DAZ 3D\Studio\Render Library\</Path>
-                  <Path Filename="Render Library">C:\Users\virgi\Documents\DAZ 3D\Studio\</Path>
-                  <Path Filename="300_png_icon.png">C:\Users\virgi\Documents\DAZ 3D\Studio\Render Library\</Path>
+                  <Path Filename="..">C:\Users\virgi\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="IDM_6.39.3_zdBryan.7z">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="logs">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\logs\</Path>
+                  <Path Filename="Documents">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="7f36111d-3cdb-4644-a365-fae51715c026.png">C:\Users\virgi\Downloads\Documents\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wlx_PhotoViewer_0.15_Beta.zip">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wlx_PhotoViewer_0.15_Beta.zip">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="我的材料">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="身份证.pdf">C:\Users\virgi\Desktop\落户\我的材料\</Path>
                 </Paths>
               </Entry>
             </History>
             <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
+              <ColumnsSet>默认</ColumnsSet>
             </ColumnsView>
           </FileView>
         </Tab>
@@ -1917,23 +1917,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="DAZ 3D">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="Studio">C:\Users\virgi\Documents\DAZ 3D\</Path>
-                  <Path Filename="Render Library">C:\Users\virgi\Documents\DAZ 3D\Studio\</Path>
-                  <Path Filename="300_png_icon.png">C:\Users\virgi\Documents\DAZ 3D\Studio\Render Library\</Path>
-                  <Path Filename="Render Library">C:\Users\virgi\Documents\DAZ 3D\Studio\</Path>
-                  <Path Filename="300_png_icon.png">C:\Users\virgi\Documents\DAZ 3D\Studio\Render Library\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="Downloads">C:\Users\virgi\</Path>
-                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
-                  <Path Filename="">C:\Users\virgi\Downloads\Compressed\</Path>
-                  <Path Filename="asdasd">C:\Users\virgi\Desktop\</Path>
-                  <Path Filename="Formats.dll">C:\Users\virgi\Desktop\asdasd\</Path>
-                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
-                  <Path Filename="">C:\Users\virgi\Desktop\落户\</Path>
-                  <Path Filename="wagner-api-a-7cfmp (2).txt">C:\Users\virgi\Downloads\logs\</Path>
-                  <Path Filename="Documents">C:\Users\virgi\Downloads\</Path>
-                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
                   <Path Filename="留学生落户申请表（0806更）.docx">C:\Users\virgi\Desktop\落户\</Path>
                   <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
                   <Path Filename="留学生落户申请表（0806更）.docx">C:\Users\virgi\Desktop\落户\</Path>
@@ -1967,6 +1950,154 @@
                   <Path Filename="..">C:\Users\virgi\</Path>
                   <Path Filename="..">C:\Users\virgi\Documents\</Path>
                   <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="IDM_6.39.3_zdBryan.7z">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="logs">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\logs\</Path>
+                  <Path Filename="Documents">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="7f36111d-3cdb-4644-a365-fae51715c026.png">C:\Users\virgi\Downloads\Documents\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wlx_PhotoViewer_0.15_Beta.zip">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wlx_PhotoViewer_0.15_Beta.zip">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="我的材料">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="身份证.pdf">C:\Users\virgi\Desktop\落户\我的材料\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>默认</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry>
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="报销与付款分录逻辑和记账流程.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="work">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\work\</Path>
+                  <Path Filename="files">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="12PIgEL7NnoX">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\</Path>
+                  <Path Filename="com.xunmeng.knock">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
+                  <Path Filename="Software">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="doublecmd.zdli">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="libwinpthread-1.dll">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="ShadowsocksR-dotnet2.0.exe.sig">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="ShadowsocksR-win-4.9.2">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\ShadowsocksR-win-4.9.2\</Path>
+                  <Path Filename="doublecmd">C:\Users\virgi\Documents\Software\</Path>
+                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="wcx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wcx\</Path>
+                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="preview">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Downloads\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\</Path>
+                  <Path Filename="wagner-task-a-77fcv (1).txt">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="Downloads">C:\Users\virgi\</Path>
+                  <Path Filename="分录汇总逻辑.xlsx">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="Users">C:\</Path>
+                  <Path Filename="..">C:\Users\</Path>
+                  <Path Filename="Program Files (x86)">C:\</Path>
+                  <Path Filename="..">C:\Program Files (x86)\</Path>
+                  <Path Filename="Program Files (x86)">C:\</Path>
+                  <Path Filename="FreeCommander XE">C:\Program Files (x86)\</Path>
+                  <Path Filename="">C:\Program Files (x86)\FreeCommander XE\</Path>
+                </Paths>
+              </Entry>
+              <Entry>
+                <FileSource Type="TWinNetFileSource"/>
+                <Paths>
+                  <Path Filename="">\\share.pin.com\</Path>
+                </Paths>
+              </Entry>
+              <Entry>
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="留学生材料清单及样张（10.11更）.zip">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="EAS配置优化-核对逻辑.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="files">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="报销与付款分录逻辑和记账流程.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="images">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\</Path>
+                  <Path Filename="2012">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\2012\</Path>
+                  <Path Filename="2012">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\2012\</Path>
+                  <Path Filename="2104">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\</Path>
+                  <Path Filename="02847fe6b7ca19d5d05ce227e3654bec919b210at">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\images\2104\</Path>
+                  <Path Filename="doublecmd.err">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="logs">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wagner-task-a-77fcv (1).txt">C:\Users\virgi\Downloads\logs\</Path>
+                  <Path Filename="export.csv">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\ImplicitAppShortcuts\</Path>
+                  <Path Filename="ImplicitAppShortcuts">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\</Path>
+                  <Path Filename="Quick Launch">C:\Users\virgi\AppData\Roaming\Microsoft\Internet Explorer\</Path>
+                  <Path Filename="Internet Explorer">C:\Users\virgi\AppData\Roaming\Microsoft\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\</Path>
+                  <Path Filename="Roaming">C:\Users\virgi\AppData\</Path>
+                  <Path Filename="..">C:\Users\virgi\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\</Path>
+                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="IDM_6.39.3_zdBryan.7z">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="logs">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\logs\</Path>
+                  <Path Filename="Documents">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="7f36111d-3cdb-4644-a365-fae51715c026.png">C:\Users\virgi\Downloads\Documents\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wlx_PhotoViewer_0.15_Beta.zip">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wlx_PhotoViewer_0.15_Beta.zip">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="我的材料">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="身份证.pdf">C:\Users\virgi\Desktop\落户\我的材料\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="EPSCAN">d:\</Path>
+                  <Path Filename="..">d:\EPSCAN\</Path>
+                  <Path Filename="EPSCAN">d:\</Path>
+                  <Path Filename="libstdc++-6.dll">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="EAS配置优化-核对逻辑.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1984,20 +2115,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="使用说明.txt">C:\Users\virgi\Documents\Software\totalcmd\Plugins\Wlx\Imagine\</Path>
-                  <Path Filename="..">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
-                  <Path Filename="doublecmd">C:\Users\virgi\AppData\Roaming\</Path>
-                  <Path Filename="doublecmd.xml">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
-                  <Path Filename="doublecmd">C:\Users\virgi\AppData\Roaming\</Path>
-                  <Path Filename="Roaming">C:\Users\virgi\AppData\</Path>
-                  <Path Filename="WeChat Files">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="..">C:\Users\virgi\Documents\WeChat Files\</Path>
-                  <Path Filename="Virtual Machines">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="Ubuntu">C:\Users\virgi\Documents\Virtual Machines\</Path>
-                  <Path Filename="mksSandbox-1.log">C:\Users\virgi\Documents\Virtual Machines\Ubuntu\</Path>
-                  <Path Filename="Ubuntu">C:\Users\virgi\Documents\Virtual Machines\</Path>
-                  <Path Filename="pdd-code">C:\Users\virgi\Documents\</Path>
-                  <Path Filename="Downloads">C:\Users\virgi\</Path>
                   <Path Filename="Programs">C:\Users\virgi\Downloads\</Path>
                   <Path Filename="..">C:\Users\virgi\Downloads\Programs\</Path>
                   <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
@@ -2030,7 +2147,88 @@
                   <Path Filename="计算机网络-自顶向下方法第七版.pdf">C:\Users\virgi\Downloads\Documents\</Path>
                   <Path Filename="multiarc.ini">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
                   <Path Filename="分录优化10月-10月排期@1006.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
-                  <Path Filename="hive2sql表结构.xlsx">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="我的材料">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\落户\我的材料\</Path>
+                  <Path Filename="材料样张">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="出入境记录.pdf">C:\Users\virgi\Desktop\落户\材料样张\</Path>
+                  <Path Filename="材料样张">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\落户\材料样张\</Path>
+                  <Path Filename="我的材料">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="国外学历认证报告.pdf">C:\Users\virgi\Desktop\落户\我的材料\</Path>
+                  <Path Filename="材料样张">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="放弃随迁承诺书（配偶）.doc">C:\Users\virgi\Desktop\落户\材料样张\</Path>
+                  <Path Filename="材料样张">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="存档证明.pdf">C:\Users\virgi\Desktop\落户\材料样张\</Path>
+                  <Path Filename="我的材料">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\落户\我的材料\</Path>
+                  <Path Filename="材料样张">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="2019年税单.pdf">C:\Users\virgi\Desktop\落户\材料样张\</Path>
+                  <Path Filename="留学生落户高频材料问题梳理（10.11更）.pdf">C:\Users\virgi\Desktop\落户\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>默认</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Programs">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="..">C:\Users\virgi\Downloads\Programs\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="wlx_imagine_x64.zip">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="plugins">C:\Users\virgi\Documents\Software\doublecmd\</Path>
+                  <Path Filename="wlx">C:\Users\virgi\Documents\Software\doublecmd\plugins\</Path>
+                  <Path Filename="Imagine">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="Plugin">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\Plugin\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\Imagine\</Path>
+                  <Path Filename="irfanview">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="IrfanView64">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\irfanview\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\irfanview\IrfanView64\</Path>
+                  <Path Filename="IrfanView64">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\irfanview\</Path>
+                  <Path Filename="uLister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="Redist">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\uLister\</Path>
+                  <Path Filename="Wvcore.dll">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\uLister\Redist\</Path>
+                  <Path Filename="Redist">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\uLister\</Path>
+                  <Path Filename="MMedia">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="Readme.txt">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\MMedia\</Path>
+                  <Path Filename="wmp">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="..">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\wmp\</Path>
+                  <Path Filename="sLister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="SumatraPDF.exe">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\sLister\</Path>
+                  <Path Filename="sLister">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\</Path>
+                  <Path Filename="sLister.ini">C:\Users\virgi\Documents\Software\doublecmd\plugins\wlx\sLister\</Path>
+                  <Path Filename="Compressed">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-74070 (ED2000.COM).iso">C:\Users\virgi\Downloads\Compressed\</Path>
+                  <Path Filename="Documents">C:\Users\virgi\Downloads\</Path>
+                  <Path Filename="计算机网络-自顶向下方法第七版.pdf">C:\Users\virgi\Downloads\Documents\</Path>
+                  <Path Filename="multiarc.ini">C:\Users\virgi\AppData\Roaming\doublecmd\</Path>
+                  <Path Filename="分录优化10月-10月排期@1006.xlsx">C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files\</Path>
+                  <Path Filename="落户">C:\Users\virgi\Desktop\</Path>
+                  <Path Filename="我的材料">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\落户\我的材料\</Path>
+                  <Path Filename="材料样张">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="出入境记录.pdf">C:\Users\virgi\Desktop\落户\材料样张\</Path>
+                  <Path Filename="材料样张">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\落户\材料样张\</Path>
+                  <Path Filename="我的材料">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="国外学历认证报告.pdf">C:\Users\virgi\Desktop\落户\我的材料\</Path>
+                  <Path Filename="材料样张">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="放弃随迁承诺书（配偶）.doc">C:\Users\virgi\Desktop\落户\材料样张\</Path>
+                  <Path Filename="材料样张">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="存档证明.pdf">C:\Users\virgi\Desktop\落户\材料样张\</Path>
+                  <Path Filename="我的材料">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="..">C:\Users\virgi\Desktop\落户\我的材料\</Path>
+                  <Path Filename="材料样张">C:\Users\virgi\Desktop\落户\</Path>
+                  <Path Filename="2019年税单.pdf">C:\Users\virgi\Desktop\落户\材料样张\</Path>
+                  <Path Filename="留学生落户申请表（0806更）.docx">C:\Users\virgi\Desktop\落户\</Path>
                 </Paths>
               </Entry>
             </History>
@@ -2116,11 +2314,10 @@
     <IgnoreListFile>%DC_CONFIG_PATH%\ignorelist.txt</IgnoreListFile>
   </IgnoreList>
   <DirectoryHotList>
-    <HotDir Name="Knock 文件 (&amp;K)" Path="C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files"/>
-    <HotDir Name="Double Commander Config" Path="C:\Users\virgi\AppData\Roaming\doublecmd"/>
-    <HotDir Name="Desktop (&amp;D)" Path="C:\Users\virgi\Desktop"/>
-    <HotDir Name="Documents (&amp;O)" Path="C:\Users\virgi\Documents"/>
-    <HotDir Name="Downloads (&amp;W)" Path="C:\Users\virgi\Downloads"/>
+    <HotDir Name="Knock 文件" Path="C:\Users\virgi\AppData\Roaming\com.xunmeng.knock\12PIgEL7NnoX\files"/>
+    <HotDir Name="Desktop" Path="C:\Users\virgi\Desktop"/>
+    <HotDir Name="Documents" Path="C:\Users\virgi\Documents"/>
+    <HotDir Name="Downloads" Path="C:\Users\virgi\Downloads"/>
   </DirectoryHotList>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
@@ -2198,7 +2395,7 @@
     <PathModifierElements>0</PathModifierElements>
   </InternalAssociations>
   <TreeViewMenu>
-    <UseTVMDirectoryHotlistFMC>False</UseTVMDirectoryHotlistFMC>
+    <UseTVMDirectoryHotlistFMC>True</UseTVMDirectoryHotlistFMC>
     <UseTVMDirectoryHotlistFDC>False</UseTVMDirectoryHotlistFDC>
     <UseTVMFavoriteTabsFMC>False</UseTVMFavoriteTabsFMC>
     <UseTVMFavoriteTabsFDC>False</UseTVMFavoriteTabsFDC>
@@ -2248,9 +2445,9 @@
     <ShortcutColor>15780518</ShortcutColor>
     <NormalTextColor>-2147483640</NormalTextColor>
     <SecondaryTextColor>8421504</SecondaryTextColor>
-    <FoundTextColor>-2147483635</FoundTextColor>
-    <UnselectableTextColor>-2147483631</UnselectableTextColor>
-    <CursorColor>-2147483635</CursorColor>
+    <FoundTextColor>65535</FoundTextColor>
+    <UnselectableTextColor>10789024</UnselectableTextColor>
+    <CursorColor>-2147483619</CursorColor>
     <ShortcutUnderCursor>-2147483634</ShortcutUnderCursor>
     <NormalTextUnderCursor>-2147483634</NormalTextUnderCursor>
     <SecondaryTextUnderCursor>-2147483628</SecondaryTextUnderCursor>
@@ -2609,7 +2806,7 @@
         <Column>
           <Title>EXT</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>103</Width>
+          <Width>104</Width>
           <Align>0</Align>
           <Font>
             <Name>等距更纱黑体 SC</Name>
@@ -2868,6 +3065,10 @@
       <WfxPlugin Enabled="True">
         <Name>FTP</Name>
         <Path>%COMMANDER_PATH%\plugins\wfx\ftp\ftp.wfx</Path>
+      </WfxPlugin>
+      <WfxPlugin Enabled="True">
+        <Name>WebDAV</Name>
+        <Path>%COMMANDER_PATH%\plugins\wfx\webdav\davplug.wfx64</Path>
       </WfxPlugin>
     </WfxPlugins>
     <WlxPlugins>
